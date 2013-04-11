@@ -1,0 +1,2450 @@
+eup wake lock: alarm_rtc
+<7>[26742.200026] [pm]platform wakeup finish
+<7>[26742.200026] [sw_dmac_resume] enter
+<7>[26742.200026] [NAND] nand_resume 
+<7>[26742.200026] [NAND] nand gpio_request
+<7>[26742.200026] [NAND] nand gpio_request fail
+<7>[26742.200026] twi1, apb clock = 24000000 
+<7>[26742.200026] [i2c1] resume okay.. 
+<7>[26742.200026] twi2, apb clock = 24000000 
+<7>[26742.200026] [i2c2] resume okay.. 
+<7>[26742.200026] [sw_udc]: sw_udc_resume start
+<7>[26742.200026] [sw_udc]: udc is disable, need not enter to resume
+<7>[26742.200026] [sw_hcd0]: sw_hcd_resume start
+<7>[26742.200026] wrn: hcd is disable, need not resume
+<7>[26742.210480] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26742.214581] [sw-ehci2]: open clock
+<7>[26742.237989] [sw-ehci2]: Set USB Power ON
+<7>[26742.241958] [sw-ehci2]: lost power, restarting
+<4>[26742.246402] usb usb2: root hub lost power or was reset
+<7>[26742.251603] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26742.255698] [sw-ohci2]: open clock
+<7>[26742.260028] ========== LCD SPI data translation finished ===========
+<7>[26742.270042] ehci_irq: port change detect
+<4>[26742.344042] usb usb3: root hub lost power or was reset
+<6>[26742.349330] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26742.354155] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:33
+<7>[26742.364034] [AXP]Cur_CoulombCounter	= 4826
+<7>[26742.368129] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26742.374332] [AXP]=======================val = 0x0
+<7>[26742.380299] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26742.384945] [mmc]: mmc 0 power on !!
+<7>[26742.483844] [audio codec]:resume start
+<7>[26742.487630] codec_resume_events,1482
+<7>[26742.491262] [audio codec]:resume end
+<7>[26742.494994] [mmc_pm]: No sdio card, please check your config !!
+<6>[26742.610211] [CSI]csi_resume
+<6>[26742.630067] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26742.781407] PM: resume of devices complete after 587.236 msecs
+<7>[26742.787475] [pm]aw_pm_end!
+<7>[26742.790232] PM: Finishing wakeup.
+<7>[26742.793547] Restarting tasks ... done.
+<6>[26742.808557] suspend: exit suspend, ret = 0 (2013-04-10 22:22:16.567665474 UTC)
+<7>[26743.140041] ====pa turn on===
+<7>[26747.866213] [pm]valid
+<6>[26747.868507] PM: Syncing filesystems ... done.
+<7>[26747.879348] PM: Preparing system for mem sleep
+<7>[26747.883974] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26747.913007] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26747.932940] PM: Entering mem sleep
+<7>[26747.936349] [pm]3 state begin
+<7>[26747.940293] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26747.946479] [CSI]csi_suspend
+<7>[26747.950855] [audio codec]:suspend start5000
+<7>[26748.553679] [audio codec]:suspend end
+<7>[26748.557433] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26748.564048] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26748.570661] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26748.577236] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26748.583840] [mmc]: mmc 0 power off !!
+<7>[26748.589425] pmu_suspend_chgcur = 1000000
+<7>[26748.593829] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26748.599575] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26748.605957] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26748.610783] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:39
+<6>[26748.616545] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26748.621372] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:39
+<6>[26748.627118] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26748.631936] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:39
+<6>[26748.637787] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26748.642611] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:39
+<6>[26748.648365] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26748.653185] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:21:39
+<7>[26748.659028] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26748.663245] [sw-ohci2]: close clock
+<7>[26748.666779] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26748.671023] [sw-ehci2]: Set USB Power OFF
+<7>[26748.675036] [sw-ehci2]: close clock
+<7>[26749.690518] [sw_hcd0]: sw_hcd_suspend start
+<7>[26749.690545] wrn: hcd is disable, need not enter to suspend
+<7>[26749.690573] [sw_udc]: sw_udc_suspend start
+<7>[26749.690591] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26749.690984] [i2c2] suspend okay.. 
+<7>[26749.691034] [i2c1] suspend okay.. 
+<7>[26749.691064] [NAND] nand_suspend 
+<7>[26749.691098] [NAND] nand_suspend ok 
+<7>[26749.691120] [sw_dmac_suspend] enter
+<6>[26749.691210] PM: suspend of devices complete after 1751.147 msecs
+<7>[26749.691230] [pm]prepare
+<6>[26749.691671] PM: late suspend of devices complete after 0.418 msecs
+<7>[26749.691692] [pm]prepare_late
+<7>[26749.694025] [pm]enter state 3
+<7>[26749.700023] [pm]platform wakeup, wakesource is:0x10
+<6>[26749.700023] PM: early resume of devices complete after 0.259 msecs
+<6>[26749.700023] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26749.700023] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:19
+<6>[26749.700023] wakeup wake lock: alarm_rtc
+<7>[26749.700023] [pm]platform wakeup finish
+<7>[26749.700023] [sw_dmac_resume] enter
+<7>[26749.700023] [NAND] nand_resume 
+<7>[26749.700023] [NAND] nand gpio_request
+<7>[26749.700023] [NAND] nand gpio_request fail
+<7>[26749.700023] twi1, apb clock = 24000000 
+<7>[26749.700023] [i2c1] resume okay.. 
+<7>[26749.700023] twi2, apb clock = 24000000 
+<7>[26749.700023] [i2c2] resume okay.. 
+<7>[26749.700023] [sw_udc]: sw_udc_resume start
+<7>[26749.700023] [sw_udc]: udc is disable, need not enter to resume
+<7>[26749.700023] [sw_hcd0]: sw_hcd_resume start
+<7>[26749.700023] wrn: hcd is disable, need not resume
+<7>[26749.710505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26749.714608] [sw-ehci2]: open clock
+<7>[26749.737987] [sw-ehci2]: Set USB Power ON
+<7>[26749.741930] [sw-ehci2]: lost power, restarting
+<4>[26749.746375] usb usb2: root hub lost power or was reset
+<7>[26749.751569] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26749.755664] [sw-ohci2]: open clock
+<7>[26749.760029] ========== LCD SPI data translation finished ===========
+<7>[26749.770043] ehci_irq: port change detect
+<4>[26749.844046] usb usb3: root hub lost power or was reset
+<6>[26749.849330] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26749.854172] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:19
+<7>[26749.864037] [AXP]Cur_CoulombCounter	= 4825
+<7>[26749.868132] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26749.874333] [AXP]=======================val = 0x0
+<7>[26749.880300] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26749.884946] [mmc]: mmc 0 power on !!
+<7>[26749.983840] [audio codec]:resume start
+<7>[26749.987628] codec_resume_events,1482
+<7>[26749.991250] [audio codec]:resume end
+<7>[26749.994979] [mmc_pm]: No sdio card, please check your config !!
+<6>[26750.110211] [CSI]csi_resume
+<6>[26750.130071] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26750.281376] PM: resume of devices complete after 587.203 msecs
+<7>[26750.287442] [pm]aw_pm_end!
+<7>[26750.290220] PM: Finishing wakeup.
+<7>[26750.293536] Restarting tasks ... done.
+<6>[26750.308574] suspend: exit suspend, ret = 0 (2013-04-10 22:27:02.877290915 UTC)
+<7>[26750.640042] ====pa turn on===
+<7>[26755.373613] [pm]valid
+<6>[26755.375909] PM: Syncing filesystems ... done.
+<7>[26755.385872] PM: Preparing system for mem sleep
+<7>[26755.390489] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26755.422993] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26755.442968] PM: Entering mem sleep
+<7>[26755.446377] [pm]3 state begin
+<7>[26755.450304] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26755.456509] [CSI]csi_suspend
+<7>[26755.460800] [audio codec]:suspend start5000
+<7>[26756.063548] [audio codec]:suspend end
+<7>[26756.067310] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26756.073920] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26756.080535] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26756.087117] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26756.093717] [mmc]: mmc 0 power off !!
+<7>[26756.099283] pmu_suspend_chgcur = 1000000
+<7>[26756.103697] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26756.109443] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26756.115815] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26756.120650] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:25
+<6>[26756.126416] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26756.131237] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:25
+<6>[26756.136985] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26756.141810] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:25
+<6>[26756.147663] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26756.152481] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:25
+<6>[26756.158245] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26756.163078] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:26:25
+<7>[26756.168915] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26756.173130] [sw-ohci2]: close clock
+<7>[26756.176668] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26756.180889] [sw-ehci2]: Set USB Power OFF
+<7>[26756.184900] [sw-ehci2]: close clock
+<7>[26757.200395] [sw_hcd0]: sw_hcd_suspend start
+<7>[26757.200416] wrn: hcd is disable, need not enter to suspend
+<7>[26757.200435] [sw_udc]: sw_udc_suspend start
+<7>[26757.200448] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26757.200751] [i2c2] suspend okay.. 
+<7>[26757.200789] [i2c1] suspend okay.. 
+<7>[26757.200811] [NAND] nand_suspend 
+<7>[26757.200837] [NAND] nand_suspend ok 
+<7>[26757.200854] [sw_dmac_suspend] enter
+<6>[26757.200924] PM: suspend of devices complete after 1750.853 msecs
+<7>[26757.200938] [pm]prepare
+<6>[26757.201287] PM: late suspend of devices complete after 0.329 msecs
+<7>[26757.201302] [pm]prepare_late
+<7>[26757.203583] [pm]enter state 3
+<7>[26757.210017] [pm]platform wakeup, wakesource is:0x10
+<6>[26757.210017] PM: early resume of devices complete after 0.208 msecs
+<6>[26757.210017] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26757.210017] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:5
+<6>[26757.210017] wakeup wake lock: alarm_rtc
+<7>[26757.210017] [pm]platform wakeup finish
+<7>[26757.210017] [sw_dmac_resume] enter
+<7>[26757.210017] [NAND] nand_resume 
+<7>[26757.210017] [NAND] nand gpio_request
+<7>[26757.210017] [NAND] nand gpio_request fail
+<7>[26757.210017] twi1, apb clock = 24000000 
+<7>[26757.210017] [i2c1] resume okay.. 
+<7>[26757.210017] twi2, apb clock = 24000000 
+<7>[26757.210017] [i2c2] resume okay.. 
+<7>[26757.210017] [sw_udc]: sw_udc_resume start
+<7>[26757.210017] [sw_udc]: udc is disable, need not enter to resume
+<7>[26757.210017] [sw_hcd0]: sw_hcd_resume start
+<7>[26757.210017] wrn: hcd is disable, need not resume
+<7>[26757.220487] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26757.224589] [sw-ehci2]: open clock
+<7>[26757.247961] [sw-ehci2]: Set USB Power ON
+<7>[26757.251907] [sw-ehci2]: lost power, restarting
+<4>[26757.256352] usb usb2: root hub lost power or was reset
+<7>[26757.261550] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26757.265643] [sw-ohci2]: open clock
+<7>[26757.270027] ========== LCD SPI data translation finished ===========
+<7>[26757.280041] ehci_irq: port change detect
+<4>[26757.354045] usb usb3: root hub lost power or was reset
+<6>[26757.359333] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26757.364183] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:5
+<7>[26757.373942] [AXP]Cur_CoulombCounter	= 4824
+<7>[26757.378039] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26757.384240] [AXP]=======================val = 0x0
+<7>[26757.390208] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26757.394853] [mmc]: mmc 0 power on !!
+<7>[26757.493851] [audio codec]:resume start
+<7>[26757.497632] codec_resume_events,1482
+<7>[26757.501249] [audio codec]:resume end
+<7>[26757.504975] [mmc_pm]: No sdio card, please check your config !!
+<6>[26757.620215] [CSI]csi_resume
+<6>[26757.640085] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26757.791242] PM: resume of devices complete after 587.788 msecs
+<7>[26757.797306] [pm]aw_pm_end!
+<7>[26757.800053] PM: Finishing wakeup.
+<7>[26757.803366] Restarting tasks ... done.
+<6>[26757.818363] suspend: exit suspend, ret = 0 (2013-04-10 22:31:49.196578600 UTC)
+<7>[26758.150044] ====pa turn on===
+<7>[26762.866123] [pm]valid
+<6>[26762.868416] PM: Syncing filesystems ... done.
+<7>[26762.878722] PM: Preparing system for mem sleep
+<7>[26762.883314] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26762.912971] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26762.932934] PM: Entering mem sleep
+<7>[26762.936337] [pm]3 state begin
+<7>[26762.940117] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26762.946283] [CSI]csi_suspend
+<7>[26762.949691] [audio codec]:suspend start5000
+<7>[26763.553996] [audio codec]:suspend end
+<7>[26763.557766] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26763.564376] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26763.570989] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26763.577573] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26763.584177] [mmc]: mmc 0 power off !!
+<7>[26763.589746] pmu_suspend_chgcur = 1000000
+<7>[26763.594159] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26763.599907] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26763.606281] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26763.611118] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:11
+<6>[26763.616894] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26763.621742] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:11
+<6>[26763.627489] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26763.632335] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:11
+<6>[26763.638186] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26763.643023] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:11
+<6>[26763.648790] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26763.653640] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:31:11
+<7>[26763.659479] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26763.663697] [sw-ohci2]: close clock
+<7>[26763.667232] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26763.671455] [sw-ehci2]: Set USB Power OFF
+<7>[26763.675467] [sw-ehci2]: close clock
+<7>[26764.690403] [sw_hcd0]: sw_hcd_suspend start
+<7>[26764.690425] wrn: hcd is disable, need not enter to suspend
+<7>[26764.690445] [sw_udc]: sw_udc_suspend start
+<7>[26764.690458] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26764.690758] [i2c2] suspend okay.. 
+<7>[26764.690796] [i2c1] suspend okay.. 
+<7>[26764.690819] [NAND] nand_suspend 
+<7>[26764.690845] [NAND] nand_suspend ok 
+<7>[26764.690864] [sw_dmac_suspend] enter
+<6>[26764.690935] PM: suspend of devices complete after 1751.075 msecs
+<7>[26764.690949] [pm]prepare
+<6>[26764.691297] PM: late suspend of devices complete after 0.330 msecs
+<7>[26764.691311] [pm]prepare_late
+<7>[26764.693566] [pm]enter state 3
+<7>[26764.700019] [pm]platform wakeup, wakesource is:0x10
+<6>[26764.700019] PM: early resume of devices complete after 0.200 msecs
+<6>[26764.700019] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26764.700019] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:30
+<6>[26764.700019] wakeup wake lock: alarm_rtc
+<7>[26764.700019] [pm]platform wakeup finish
+<7>[26764.700019] [sw_dmac_resume] enter
+<7>[26764.700019] [NAND] nand_resume 
+<7>[26764.700019] [NAND] nand gpio_request
+<7>[26764.700019] [NAND] nand gpio_request fail
+<7>[26764.700019] twi1, apb clock = 24000000 
+<7>[26764.700019] [i2c1] resume okay.. 
+<7>[26764.700019] twi2, apb clock = 24000000 
+<7>[26764.700019] [i2c2] resume okay.. 
+<7>[26764.700019] [sw_udc]: sw_udc_resume start
+<7>[26764.700019] [sw_udc]: udc is disable, need not enter to resume
+<7>[26764.700019] [sw_hcd0]: sw_hcd_resume start
+<7>[26764.700019] wrn: hcd is disable, need not resume
+<7>[26764.710496] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26764.714598] [sw-ehci2]: open clock
+<7>[26764.737974] [sw-ehci2]: Set USB Power ON
+<7>[26764.741920] [sw-ehci2]: lost power, restarting
+<4>[26764.746368] usb usb2: root hub lost power or was reset
+<7>[26764.751564] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26764.755657] [sw-ohci2]: open clock
+<7>[26764.760030] ========== LCD SPI data translation finished ===========
+<7>[26764.770057] ehci_irq: port change detect
+<4>[26764.844047] usb usb3: root hub lost power or was reset
+<6>[26764.849329] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26764.854150] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:30
+<7>[26764.864006] [AXP]Cur_CoulombCounter	= 4823
+<7>[26764.868101] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26764.874305] [AXP]=======================val = 0x0
+<7>[26764.880272] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26764.884915] [mmc]: mmc 0 power on !!
+<7>[26764.983843] [audio codec]:resume start
+<7>[26764.987630] codec_resume_events,1482
+<7>[26764.991249] [audio codec]:resume end
+<7>[26764.994974] [mmc_pm]: No sdio card, please check your config !!
+<6>[26765.110215] [CSI]csi_resume
+<6>[26765.130071] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26765.281248] PM: resume of devices complete after 587.807 msecs
+<7>[26765.287312] [pm]aw_pm_end!
+<7>[26765.290068] PM: Finishing wakeup.
+<7>[26765.293383] Restarting tasks ... done.
+<6>[26765.308362] suspend: exit suspend, ret = 0 (2013-04-10 22:34:14.496640736 UTC)
+<7>[26765.640043] ====pa turn on===
+<7>[26770.343270] [pm]valid
+<6>[26770.345567] PM: Syncing filesystems ... done.
+<7>[26770.355563] PM: Preparing system for mem sleep
+<7>[26770.360166] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26770.393004] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26770.412946] PM: Entering mem sleep
+<7>[26770.416352] [pm]3 state begin
+<7>[26770.420297] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26770.426488] [CSI]csi_suspend
+<7>[26770.430806] [audio codec]:suspend start5000
+<7>[26771.033614] [audio codec]:suspend end
+<7>[26771.037369] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26771.043985] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26771.050610] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26771.057184] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26771.063788] [mmc]: mmc 0 power off !!
+<7>[26771.069372] pmu_suspend_chgcur = 1000000
+<7>[26771.073778] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26771.079525] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26771.085904] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26771.090731] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:36
+<6>[26771.096491] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26771.101318] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:36
+<6>[26771.107076] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26771.111896] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:36
+<6>[26771.117746] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26771.122570] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:36
+<6>[26771.128325] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26771.133146] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:33:36
+<7>[26771.138992] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26771.143220] [sw-ohci2]: close clock
+<7>[26771.146757] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26771.150974] [sw-ehci2]: Set USB Power OFF
+<7>[26771.154987] [sw-ehci2]: close clock
+<7>[26772.170501] [sw_hcd0]: sw_hcd_suspend start
+<7>[26772.170532] wrn: hcd is disable, need not enter to suspend
+<7>[26772.170557] [sw_udc]: sw_udc_suspend start
+<7>[26772.170575] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26772.170963] [i2c2] suspend okay.. 
+<7>[26772.171013] [i2c1] suspend okay.. 
+<7>[26772.171041] [NAND] nand_suspend 
+<7>[26772.171077] [NAND] nand_suspend ok 
+<7>[26772.171100] [sw_dmac_suspend] enter
+<6>[26772.171190] PM: suspend of devices complete after 1751.124 msecs
+<7>[26772.171209] [pm]prepare
+<6>[26772.171653] PM: late suspend of devices complete after 0.418 msecs
+<7>[26772.171672] [pm]prepare_late
+<7>[26772.174014] [pm]enter state 3
+<7>[26772.180022] [pm]platform wakeup, wakesource is:0x10
+<6>[26772.180022] PM: early resume of devices complete after 0.258 msecs
+<6>[26772.180022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26772.180022] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:50
+<6>[26772.180022] wakeup wake lock: alarm_rtc
+<7>[26772.180022] [pm]platform wakeup finish
+<7>[26772.180022] [sw_dmac_resume] enter
+<7>[26772.180022] [NAND] nand_resume 
+<7>[26772.180022] [NAND] nand gpio_request
+<7>[26772.180022] [NAND] nand gpio_request fail
+<7>[26772.180022] twi1, apb clock = 24000000 
+<7>[26772.180022] [i2c1] resume okay.. 
+<7>[26772.180022] twi2, apb clock = 24000000 
+<7>[26772.180022] [i2c2] resume okay.. 
+<7>[26772.180022] [sw_udc]: sw_udc_resume start
+<7>[26772.180022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26772.180022] [sw_hcd0]: sw_hcd_resume start
+<7>[26772.180022] wrn: hcd is disable, need not resume
+<7>[26772.190514] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26772.194615] [sw-ehci2]: open clock
+<7>[26772.218000] [sw-ehci2]: Set USB Power ON
+<7>[26772.221944] [sw-ehci2]: lost power, restarting
+<4>[26772.226387] usb usb2: root hub lost power or was reset
+<7>[26772.231586] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26772.235679] [sw-ohci2]: open clock
+<7>[26772.240028] ========== LCD SPI data translation finished ===========
+<7>[26772.250042] ehci_irq: port change detect
+<4>[26772.324044] usb usb3: root hub lost power or was reset
+<6>[26772.329335] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26772.334158] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:50
+<7>[26772.343957] [AXP]Cur_CoulombCounter	= 4822
+<7>[26772.348051] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26772.354263] [AXP]=======================val = 0x0
+<7>[26772.360231] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26772.364875] [mmc]: mmc 0 power on !!
+<7>[26772.463863] [audio codec]:resume start
+<7>[26772.467646] codec_resume_events,1482
+<7>[26772.471254] [audio codec]:resume end
+<7>[26772.474985] [mmc_pm]: No sdio card, please check your config !!
+<6>[26772.590228] [CSI]csi_resume
+<6>[26772.610088] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26772.761400] PM: resume of devices complete after 587.246 msecs
+<7>[26772.767466] [pm]aw_pm_end!
+<7>[26772.770211] PM: Finishing wakeup.
+<7>[26772.773525] Restarting tasks ... done.
+<6>[26772.788513] suspend: exit suspend, ret = 0 (2013-04-10 22:36:34.786361285 UTC)
+<7>[26773.120043] ====pa turn on===
+<7>[26777.842940] [pm]valid
+<6>[26777.845237] PM: Syncing filesystems ... done.
+<7>[26777.856118] PM: Preparing system for mem sleep
+<7>[26777.860739] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26777.893017] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26777.912958] PM: Entering mem sleep
+<7>[26777.916364] [pm]3 state begin
+<7>[26777.920310] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26777.926499] [CSI]csi_suspend
+<7>[26777.930825] [audio codec]:suspend start5000
+<7>[26778.533535] [audio codec]:suspend end
+<7>[26778.537287] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26778.543899] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26778.550511] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26778.557086] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26778.563686] [mmc]: mmc 0 power off !!
+<7>[26778.569229] pmu_suspend_chgcur = 1000000
+<7>[26778.573641] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26778.579388] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26778.585766] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26778.590615] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:56
+<6>[26778.596378] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26778.601226] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:56
+<6>[26778.606974] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26778.611794] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:56
+<6>[26778.617646] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26778.622470] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:56
+<6>[26778.628225] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26778.633045] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:35:56
+<7>[26778.638892] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26778.643109] [sw-ohci2]: close clock
+<7>[26778.646644] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26778.650863] [sw-ehci2]: Set USB Power OFF
+<7>[26778.654875] [sw-ehci2]: close clock
+<7>[26779.670513] [sw_hcd0]: sw_hcd_suspend start
+<7>[26779.670540] wrn: hcd is disable, need not enter to suspend
+<7>[26779.670566] [sw_udc]: sw_udc_suspend start
+<7>[26779.670584] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26779.670971] [i2c2] suspend okay.. 
+<7>[26779.671022] [i2c1] suspend okay.. 
+<7>[26779.671053] [NAND] nand_suspend 
+<7>[26779.671087] [NAND] nand_suspend ok 
+<7>[26779.671113] [sw_dmac_suspend] enter
+<6>[26779.671204] PM: suspend of devices complete after 1751.126 msecs
+<7>[26779.671224] [pm]prepare
+<6>[26779.671661] PM: late suspend of devices complete after 0.415 msecs
+<7>[26779.671679] [pm]prepare_late
+<7>[26779.674016] [pm]enter state 3
+<7>[26779.680024] [pm]platform wakeup, wakesource is:0x10
+<6>[26779.680024] PM: early resume of devices complete after 0.255 msecs
+<6>[26779.680024] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26779.680024] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:41
+<6>[26779.680024] wakeup wake lock: alarm_rtc
+<7>[26779.680024] [pm]platform wakeup finish
+<7>[26779.680024] [sw_dmac_resume] enter
+<7>[26779.680024] [NAND] nand_resume 
+<7>[26779.680024] [NAND] nand gpio_request
+<7>[26779.680024] [NAND] nand gpio_request fail
+<7>[26779.680024] twi1, apb clock = 24000000 
+<7>[26779.680024] [i2c1] resume okay.. 
+<7>[26779.680024] twi2, apb clock = 24000000 
+<7>[26779.680024] [i2c2] resume okay.. 
+<7>[26779.680024] [sw_udc]: sw_udc_resume start
+<7>[26779.680024] [sw_udc]: udc is disable, need not enter to resume
+<7>[26779.680024] [sw_hcd0]: sw_hcd_resume start
+<7>[26779.680024] wrn: hcd is disable, need not resume
+<7>[26779.690495] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26779.694594] [sw-ehci2]: open clock
+<7>[26779.717969] [sw-ehci2]: Set USB Power ON
+<7>[26779.721938] [sw-ehci2]: lost power, restarting
+<4>[26779.726384] usb usb2: root hub lost power or was reset
+<7>[26779.731587] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26779.735681] [sw-ohci2]: open clock
+<7>[26779.740027] ========== LCD SPI data translation finished ===========
+<7>[26779.750043] ehci_irq: port change detect
+<4>[26779.824045] usb usb3: root hub lost power or was reset
+<6>[26779.829338] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26779.834160] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:41
+<7>[26779.844034] [AXP]Cur_CoulombCounter	= 4820
+<7>[26779.848129] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26779.854330] [AXP]=======================val = 0x0
+<7>[26779.860299] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26779.864941] [mmc]: mmc 0 power on !!
+<7>[26779.963860] [audio codec]:resume start
+<7>[26779.967640] codec_resume_events,1482
+<7>[26779.971263] [audio codec]:resume end
+<7>[26779.974990] [mmc_pm]: No sdio card, please check your config !!
+<6>[26780.090217] [CSI]csi_resume
+<6>[26780.110071] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26780.261389] PM: resume of devices complete after 587.236 msecs
+<7>[26780.267455] [pm]aw_pm_end!
+<7>[26780.270207] PM: Finishing wakeup.
+<7>[26780.273521] Restarting tasks ... done.
+<6>[26780.289129] suspend: exit suspend, ret = 0 (2013-04-10 22:40:26.096439023 UTC)
+<7>[26780.620050] ====pa turn on===
+<7>[26785.484554] [pm]valid
+<6>[26785.486845] PM: Syncing filesystems ... done.
+<7>[26785.498402] PM: Preparing system for mem sleep
+<7>[26785.503026] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26785.533014] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26785.552947] PM: Entering mem sleep
+<7>[26785.556355] [pm]3 state begin
+<7>[26785.560286] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26785.566473] [CSI]csi_suspend
+<7>[26785.570834] [audio codec]:suspend start5000
+<7>[26786.173580] [audio codec]:suspend end
+<7>[26786.177340] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26786.183947] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26786.190547] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26786.197143] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26786.203751] [mmc]: mmc 0 power off !!
+<7>[26786.209312] pmu_suspend_chgcur = 1000000
+<7>[26786.213718] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26786.219479] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26786.225853] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26786.230683] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:47
+<6>[26786.236451] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26786.241272] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:47
+<6>[26786.247018] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26786.251844] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:47
+<6>[26786.257706] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26786.262525] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:47
+<6>[26786.268281] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26786.273107] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:39:47
+<7>[26786.278944] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26786.283163] [sw-ohci2]: close clock
+<7>[26786.286700] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26786.290930] [sw-ehci2]: Set USB Power OFF
+<7>[26786.294946] [sw-ehci2]: close clock
+<7>[26787.310386] [sw_hcd0]: sw_hcd_suspend start
+<7>[26787.310405] wrn: hcd is disable, need not enter to suspend
+<7>[26787.310424] [sw_udc]: sw_udc_suspend start
+<7>[26787.310436] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26787.310732] [i2c2] suspend okay.. 
+<7>[26787.310770] [i2c1] suspend okay.. 
+<7>[26787.310791] [NAND] nand_suspend 
+<7>[26787.310815] [NAND] nand_suspend ok 
+<7>[26787.310833] [sw_dmac_suspend] enter
+<6>[26787.310904] PM: suspend of devices complete after 1750.900 msecs
+<7>[26787.310919] [pm]prepare
+<6>[26787.311264] PM: late suspend of devices complete after 0.326 msecs
+<7>[26787.311278] [pm]prepare_late
+<7>[26787.313551] [pm]enter state 3
+<7>[26787.320017] [pm]platform wakeup, wakesource is:0x10
+<6>[26787.320017] PM: early resume of devices complete after 0.199 msecs
+<6>[26787.320017] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26787.320017] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:19
+<6>[26787.320017] wakeup wake lock: alarm_rtc
+<7>[26787.320017] [pm]platform wakeup finish
+<7>[26787.320017] [sw_dmac_resume] enter
+<7>[26787.320017] [NAND] nand_resume 
+<7>[26787.320017] [NAND] nand gpio_request
+<7>[26787.320017] [NAND] nand gpio_request fail
+<7>[26787.320017] twi1, apb clock = 24000000 
+<7>[26787.320017] [i2c1] resume okay.. 
+<7>[26787.320017] twi2, apb clock = 24000000 
+<7>[26787.320017] [i2c2] resume okay.. 
+<7>[26787.320017] [sw_udc]: sw_udc_resume start
+<7>[26787.320017] [sw_udc]: udc is disable, need not enter to resume
+<7>[26787.320017] [sw_hcd0]: sw_hcd_resume start
+<7>[26787.320017] wrn: hcd is disable, need not resume
+<7>[26787.330496] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26787.334598] [sw-ehci2]: open clock
+<7>[26787.358013] [sw-ehci2]: Set USB Power ON
+<7>[26787.361962] [sw-ehci2]: lost power, restarting
+<4>[26787.366407] usb usb2: root hub lost power or was reset
+<7>[26787.371597] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26787.375682] [sw-ohci2]: open clock
+<7>[26787.380026] ========== LCD SPI data translation finished ===========
+<7>[26787.390040] ehci_irq: port change detect
+<4>[26787.464063] usb usb3: root hub lost power or was reset
+<6>[26787.469350] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26787.474171] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:19
+<7>[26787.483965] [AXP]Cur_CoulombCounter	= 4819
+<7>[26787.488062] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26787.494302] [AXP]=======================val = 0x0
+<7>[26787.500267] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26787.504910] [mmc]: mmc 0 power on !!
+<7>[26787.603854] [audio codec]:resume start
+<7>[26787.607635] codec_resume_events,1482
+<7>[26787.611244] [audio codec]:resume end
+<7>[26787.614969] [mmc_pm]: No sdio card, please check your config !!
+<6>[26787.730213] [CSI]csi_resume
+<6>[26787.750077] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26787.901295] PM: resume of devices complete after 587.867 msecs
+<7>[26787.907359] [pm]aw_pm_end!
+<7>[26787.910107] PM: Finishing wakeup.
+<7>[26787.913422] Restarting tasks ... done.
+<6>[26787.931065] suspend: exit suspend, ret = 0 (2013-04-10 22:41:04.547893909 UTC)
+<7>[26788.260044] ====pa turn on===
+<7>[26792.974983] [pm]valid
+<6>[26792.977275] PM: Syncing filesystems ... done.
+<7>[26792.986526] PM: Preparing system for mem sleep
+<7>[26792.991111] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26793.022974] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26793.042916] PM: Entering mem sleep
+<7>[26793.046318] [pm]3 state begin
+<7>[26793.050077] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26793.056241] [CSI]csi_suspend
+<7>[26793.059750] [audio codec]:suspend start5000
+<7>[26793.664037] [audio codec]:suspend end
+<7>[26793.667806] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26793.674419] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26793.681030] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26793.687611] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26793.694213] [mmc]: mmc 0 power off !!
+<7>[26793.699779] pmu_suspend_chgcur = 1000000
+<7>[26793.704191] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26793.709941] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26793.716316] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26793.721151] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:25
+<6>[26793.726922] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26793.731743] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:25
+<6>[26793.737489] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26793.742314] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:25
+<6>[26793.748167] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26793.752984] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:25
+<6>[26793.758739] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26793.763587] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:40:25
+<7>[26793.769424] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26793.773665] [sw-ohci2]: close clock
+<7>[26793.777202] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26793.781451] [sw-ehci2]: Set USB Power OFF
+<7>[26793.785463] [sw-ehci2]: close clock
+<7>[26794.800391] [sw_hcd0]: sw_hcd_suspend start
+<7>[26794.800412] wrn: hcd is disable, need not enter to suspend
+<7>[26794.800432] [sw_udc]: sw_udc_suspend start
+<7>[26794.800448] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26794.800749] [i2c2] suspend okay.. 
+<7>[26794.800787] [i2c1] suspend okay.. 
+<7>[26794.800809] [NAND] nand_suspend 
+<7>[26794.800834] [NAND] nand_suspend ok 
+<7>[26794.800851] [sw_dmac_suspend] enter
+<6>[26794.800919] PM: suspend of devices complete after 1751.076 msecs
+<7>[26794.800934] [pm]prepare
+<6>[26794.801278] PM: late suspend of devices complete after 0.324 msecs
+<7>[26794.801292] [pm]prepare_late
+<7>[26794.803551] [pm]enter state 3
+<7>[26794.810017] [pm]platform wakeup, wakesource is:0x10
+<6>[26794.810017] PM: early resume of devices complete after 0.201 msecs
+<6>[26794.810017] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26794.810017] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:34
+<6>[26794.810017] wakeup wake lock: alarm_rtc
+<7>[26794.810017] [pm]platform wakeup finish
+<7>[26794.810017] [sw_dmac_resume] enter
+<7>[26794.810017] [NAND] nand_resume 
+<7>[26794.810017] [NAND] nand gpio_request
+<7>[26794.810017] [NAND] nand gpio_request fail
+<7>[26794.810017] twi1, apb clock = 24000000 
+<7>[26794.810017] [i2c1] resume okay.. 
+<7>[26794.810017] twi2, apb clock = 24000000 
+<7>[26794.810017] [i2c2] resume okay.. 
+<7>[26794.810017] [sw_udc]: sw_udc_resume start
+<7>[26794.810017] [sw_udc]: udc is disable, need not enter to resume
+<7>[26794.810017] [sw_hcd0]: sw_hcd_resume start
+<7>[26794.810017] wrn: hcd is disable, need not resume
+<7>[26794.820513] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26794.824613] [sw-ehci2]: open clock
+<7>[26794.848027] [sw-ehci2]: Set USB Power ON
+<7>[26794.851972] [sw-ehci2]: lost power, restarting
+<4>[26794.856416] usb usb2: root hub lost power or was reset
+<7>[26794.861608] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26794.865702] [sw-ohci2]: open clock
+<7>[26794.870026] ========== LCD SPI data translation finished ===========
+<7>[26794.880043] ehci_irq: port change detect
+<4>[26794.954037] usb usb3: root hub lost power or was reset
+<6>[26794.959315] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26794.964155] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:34
+<7>[26794.974005] [AXP]Cur_CoulombCounter	= 4818
+<7>[26794.978100] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26794.984290] [AXP]=======================val = 0x0
+<7>[26794.990247] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26794.994893] [mmc]: mmc 0 power on !!
+<7>[26795.093860] [audio codec]:resume start
+<7>[26795.097641] codec_resume_events,1482
+<7>[26795.101249] [audio codec]:resume end
+<7>[26795.104973] [mmc_pm]: No sdio card, please check your config !!
+<6>[26795.220198] [CSI]csi_resume
+<6>[26795.240069] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26795.391302] PM: resume of devices complete after 587.874 msecs
+<7>[26795.397367] [pm]aw_pm_end!
+<7>[26795.400144] PM: Finishing wakeup.
+<7>[26795.403459] Restarting tasks ... done.
+<6>[26795.421064] suspend: exit suspend, ret = 0 (2013-04-10 22:44:19.847915669 UTC)
+<7>[26795.750047] ====pa turn on===
+<7>[26800.435556] [pm]valid
+<6>[26800.437852] PM: Syncing filesystems ... done.
+<7>[26800.461777] PM: Preparing system for mem sleep
+<7>[26800.466255] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26800.502977] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26800.522943] PM: Entering mem sleep
+<7>[26800.526352] [pm]3 state begin
+<7>[26800.530287] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26800.536471] [CSI]csi_suspend
+<7>[26800.540855] [audio codec]:suspend start5000
+<7>[26801.143633] [audio codec]:suspend end
+<7>[26801.147390] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26801.154003] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26801.160613] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26801.167190] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26801.173799] [mmc]: mmc 0 power off !!
+<7>[26801.179374] pmu_suspend_chgcur = 1000000
+<7>[26801.183782] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26801.189530] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26801.195912] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26801.200742] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:40
+<6>[26801.206505] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26801.211335] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:40
+<6>[26801.217094] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26801.221912] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:40
+<6>[26801.227766] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26801.232590] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:40
+<6>[26801.238345] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26801.243165] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:40
+<7>[26801.249011] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26801.253240] [sw-ohci2]: close clock
+<7>[26801.256776] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26801.260992] [sw-ehci2]: Set USB Power OFF
+<7>[26801.265003] [sw-ehci2]: close clock
+<7>[26802.280503] [sw_hcd0]: sw_hcd_suspend start
+<7>[26802.280530] wrn: hcd is disable, need not enter to suspend
+<7>[26802.280554] [sw_udc]: sw_udc_suspend start
+<7>[26802.280573] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26802.280962] [i2c2] suspend okay.. 
+<7>[26802.281016] [i2c1] suspend okay.. 
+<7>[26802.281043] [NAND] nand_suspend 
+<7>[26802.281076] [NAND] nand_suspend ok 
+<7>[26802.281099] [sw_dmac_suspend] enter
+<6>[26802.281193] PM: suspend of devices complete after 1751.125 msecs
+<7>[26802.281211] [pm]prepare
+<6>[26802.281652] PM: late suspend of devices complete after 0.418 msecs
+<7>[26802.281671] [pm]prepare_late
+<7>[26802.284000] [pm]enter state 3
+<7>[26802.290022] [pm]platform wakeup, wakesource is:0x10
+<6>[26802.290022] PM: early resume of devices complete after 0.253 msecs
+<6>[26802.290022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26802.290022] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:53
+<6>[26802.290022] wakeup wake lock: alarm_rtc
+<7>[26802.290022] [pm]platform wakeup finish
+<7>[26802.290022] [sw_dmac_resume] enter
+<7>[26802.290022] [NAND] nand_resume 
+<7>[26802.290022] [NAND] nand gpio_request
+<7>[26802.290022] [NAND] nand gpio_request fail
+<7>[26802.290022] twi1, apb clock = 24000000 
+<7>[26802.290022] [i2c1] resume okay.. 
+<7>[26802.290022] twi2, apb clock = 24000000 
+<7>[26802.290022] [i2c2] resume okay.. 
+<7>[26802.290022] [sw_udc]: sw_udc_resume start
+<7>[26802.290022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26802.290022] [sw_hcd0]: sw_hcd_resume start
+<7>[26802.290022] wrn: hcd is disable, need not resume
+<7>[26802.300497] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26802.304597] [sw-ehci2]: open clock
+<7>[26802.328015] [sw-ehci2]: Set USB Power ON
+<7>[26802.331963] [sw-ehci2]: lost power, restarting
+<4>[26802.336407] usb usb2: root hub lost power or was reset
+<7>[26802.341595] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26802.345690] [sw-ohci2]: open clock
+<7>[26802.350028] ========== LCD SPI data translation finished ===========
+<7>[26802.360039] ehci_irq: port change detect
+<4>[26802.434046] usb usb3: root hub lost power or was reset
+<6>[26802.439335] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26802.444157] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:53
+<7>[26802.454030] [AXP]Cur_CoulombCounter	= 4817
+<7>[26802.458126] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26802.464325] [AXP]=======================val = 0x0
+<7>[26802.470276] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26802.474921] [mmc]: mmc 0 power on !!
+<7>[26802.573861] [audio codec]:resume start
+<7>[26802.577643] codec_resume_events,1482
+<7>[26802.581252] [audio codec]:resume end
+<7>[26802.584979] [mmc_pm]: No sdio card, please check your config !!
+<6>[26802.700216] [CSI]csi_resume
+<6>[26802.720067] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26802.871402] PM: resume of devices complete after 587.252 msecs
+<7>[26802.877469] [pm]aw_pm_end!
+<7>[26802.880215] PM: Finishing wakeup.
+<7>[26802.883529] Restarting tasks ... done.
+<6>[26802.898569] suspend: exit suspend, ret = 0 (2013-04-10 22:44:39.135009199 UTC)
+<7>[26803.230044] ====pa turn on===
+<7>[26807.935710] [pm]valid
+<6>[26807.938668] PM: Syncing filesystems ... done.
+<7>[26807.948612] PM: Preparing system for mem sleep
+<7>[26807.953231] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26807.983003] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26808.002951] PM: Entering mem sleep
+<7>[26808.006360] [pm]3 state begin
+<7>[26808.010305] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26808.016496] [CSI]csi_suspend
+<7>[26808.020844] [audio codec]:suspend start5000
+<7>[26808.623616] [audio codec]:suspend end
+<7>[26808.627368] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26808.633981] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26808.640606] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26808.647183] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26808.653791] [mmc]: mmc 0 power off !!
+<7>[26808.659378] pmu_suspend_chgcur = 1000000
+<7>[26808.663783] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26808.669530] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26808.675908] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26808.680738] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:59
+<6>[26808.686501] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26808.691330] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:59
+<6>[26808.697089] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26808.701908] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:59
+<6>[26808.707759] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26808.712583] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:59
+<6>[26808.718340] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26808.723159] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:43:59
+<7>[26808.729001] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26808.733254] [sw-ohci2]: close clock
+<7>[26808.736792] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26808.741028] [sw-ehci2]: Set USB Power OFF
+<7>[26808.745041] [sw-ehci2]: close clock
+<7>[26809.760510] [sw_hcd0]: sw_hcd_suspend start
+<7>[26809.760536] wrn: hcd is disable, need not enter to suspend
+<7>[26809.760561] [sw_udc]: sw_udc_suspend start
+<7>[26809.760580] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26809.760967] [i2c2] suspend okay.. 
+<7>[26809.761020] [i2c1] suspend okay.. 
+<7>[26809.761048] [NAND] nand_suspend 
+<7>[26809.761083] [NAND] nand_suspend ok 
+<7>[26809.761107] [sw_dmac_suspend] enter
+<6>[26809.761196] PM: suspend of devices complete after 1751.121 msecs
+<7>[26809.761215] [pm]prepare
+<6>[26809.761661] PM: late suspend of devices complete after 0.424 msecs
+<7>[26809.761680] [pm]prepare_late
+<7>[26809.764013] [pm]enter state 3
+<7>[26809.770022] [pm]platform wakeup, wakesource is:0x10
+<6>[26809.770022] PM: early resume of devices complete after 0.254 msecs
+<6>[26809.770022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26809.770022] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:26
+<6>[26809.770022] wakeup wake lock: alarm_rtc
+<7>[26809.770022] [pm]platform wakeup finish
+<7>[26809.770022] [sw_dmac_resume] enter
+<7>[26809.770022] [NAND] nand_resume 
+<7>[26809.770022] [NAND] nand gpio_request
+<7>[26809.770022] [NAND] nand gpio_request fail
+<7>[26809.770022] twi1, apb clock = 24000000 
+<7>[26809.770022] [i2c1] resume okay.. 
+<7>[26809.770022] twi2, apb clock = 24000000 
+<7>[26809.770022] [i2c2] resume okay.. 
+<7>[26809.770022] [sw_udc]: sw_udc_resume start
+<7>[26809.770022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26809.770022] [sw_hcd0]: sw_hcd_resume start
+<7>[26809.770022] wrn: hcd is disable, need not resume
+<7>[26809.780504] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26809.784607] [sw-ehci2]: open clock
+<7>[26809.807987] [sw-ehci2]: Set USB Power ON
+<7>[26809.811930] [sw-ehci2]: lost power, restarting
+<4>[26809.816375] usb usb2: root hub lost power or was reset
+<7>[26809.821567] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26809.825664] [sw-ohci2]: open clock
+<7>[26809.830028] ========== LCD SPI data translation finished ===========
+<7>[26809.840043] ehci_irq: port change detect
+<4>[26809.914041] usb usb3: root hub lost power or was reset
+<6>[26809.919333] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26809.924155] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:26
+<7>[26809.934018] [AXP]Cur_CoulombCounter	= 4817
+<7>[26809.938114] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26809.944318] [AXP]=======================val = 0x0
+<7>[26809.950271] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26809.954918] [mmc]: mmc 0 power on !!
+<7>[26810.053859] [audio codec]:resume start
+<7>[26810.057640] codec_resume_events,1482
+<7>[26810.061252] [audio codec]:resume end
+<7>[26810.064984] [mmc_pm]: No sdio card, please check your config !!
+<6>[26810.180191] [CSI]csi_resume
+<6>[26810.200080] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26810.351383] PM: resume of devices complete after 587.225 msecs
+<7>[26810.357451] [pm]aw_pm_end!
+<7>[26810.360237] PM: Finishing wakeup.
+<7>[26810.363555] Restarting tasks ... done.
+<6>[26810.378604] suspend: exit suspend, ret = 0 (2013-04-10 22:45:12.424636373 UTC)
+<7>[26810.710041] ====pa turn on===
+<7>[26815.434977] [pm]valid
+<6>[26815.437269] PM: Syncing filesystems ... done.
+<7>[26815.447563] PM: Preparing system for mem sleep
+<7>[26815.452166] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26815.482966] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26815.502922] PM: Entering mem sleep
+<7>[26815.506324] [pm]3 state begin
+<7>[26815.510096] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26815.516259] [CSI]csi_suspend
+<7>[26815.519708] [audio codec]:suspend start5000
+<7>[26816.124246] [audio codec]:suspend end
+<7>[26816.128007] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26816.134618] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26816.141231] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26816.147806] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26816.154424] [mmc]: mmc 0 power off !!
+<7>[26816.159989] pmu_suspend_chgcur = 1000000
+<7>[26816.164397] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26816.170171] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26816.176526] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26816.181357] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:32
+<6>[26816.187120] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26816.191949] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:32
+<6>[26816.197697] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26816.202519] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:32
+<6>[26816.208370] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26816.213194] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:32
+<6>[26816.218949] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26816.223771] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:44:32
+<7>[26816.229614] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26816.233833] [sw-ohci2]: close clock
+<7>[26816.237365] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26816.241580] [sw-ehci2]: Set USB Power OFF
+<7>[26816.245592] [sw-ehci2]: close clock
+<7>[26817.260397] [sw_hcd0]: sw_hcd_suspend start
+<7>[26817.260421] wrn: hcd is disable, need not enter to suspend
+<7>[26817.260439] [sw_udc]: sw_udc_suspend start
+<7>[26817.260452] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26817.260751] [i2c2] suspend okay.. 
+<7>[26817.260791] [i2c1] suspend okay.. 
+<7>[26817.260812] [NAND] nand_suspend 
+<7>[26817.260836] [NAND] nand_suspend ok 
+<7>[26817.260854] [sw_dmac_suspend] enter
+<6>[26817.260924] PM: suspend of devices complete after 1751.067 msecs
+<7>[26817.260939] [pm]prepare
+<6>[26817.261283] PM: late suspend of devices complete after 0.328 msecs
+<7>[26817.261297] [pm]prepare_late
+<7>[26817.263555] [pm]enter state 3
+<7>[26817.270017] [pm]platform wakeup, wakesource is:0x10
+<6>[26817.270017] PM: early resume of devices complete after 0.205 msecs
+<6>[26817.270017] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26817.270017] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:47
+<6>[26817.270017] wakeup wake lock: alarm_rtc
+<7>[26817.270017] [pm]platform wakeup finish
+<7>[26817.270017] [sw_dmac_resume] enter
+<7>[26817.270017] [NAND] nand_resume 
+<7>[26817.270017] [NAND] nand gpio_request
+<7>[26817.270017] [NAND] nand gpio_request fail
+<7>[26817.270017] twi1, apb clock = 24000000 
+<7>[26817.270017] [i2c1] resume okay.. 
+<7>[26817.270017] twi2, apb clock = 24000000 
+<7>[26817.270017] [i2c2] resume okay.. 
+<7>[26817.270017] [sw_udc]: sw_udc_resume start
+<7>[26817.270017] [sw_udc]: udc is disable, need not enter to resume
+<7>[26817.270017] [sw_hcd0]: sw_hcd_resume start
+<7>[26817.270017] wrn: hcd is disable, need not resume
+<7>[26817.280488] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26817.284590] [sw-ehci2]: open clock
+<7>[26817.307963] [sw-ehci2]: Set USB Power ON
+<7>[26817.311906] [sw-ehci2]: lost power, restarting
+<4>[26817.316353] usb usb2: root hub lost power or was reset
+<7>[26817.321548] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26817.325641] [sw-ohci2]: open clock
+<7>[26817.330028] ========== LCD SPI data translation finished ===========
+<7>[26817.340041] ehci_irq: port change detect
+<4>[26817.414046] usb usb3: root hub lost power or was reset
+<6>[26817.419332] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26817.424155] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:47
+<7>[26817.434019] [AXP]Cur_CoulombCounter	= 4815
+<7>[26817.438114] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26817.444320] [AXP]=======================val = 0x0
+<7>[26817.450268] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26817.454914] [mmc]: mmc 0 power on !!
+<7>[26817.553861] [audio codec]:resume start
+<7>[26817.557644] codec_resume_events,1482
+<7>[26817.561251] [audio codec]:resume end
+<7>[26817.564983] [mmc_pm]: No sdio card, please check your config !!
+<6>[26817.680210] [CSI]csi_resume
+<6>[26817.700083] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26817.851361] PM: resume of devices complete after 587.913 msecs
+<7>[26817.857426] [pm]aw_pm_end!
+<7>[26817.860171] PM: Finishing wakeup.
+<7>[26817.863487] Restarting tasks ... done.
+<6>[26817.878489] suspend: exit suspend, ret = 0 (2013-04-10 22:49:33.734715194 UTC)
+<7>[26818.210043] ====pa turn on===
+<7>[26822.914788] [pm]valid
+<6>[26822.917078] PM: Syncing filesystems ... done.
+<7>[26822.926287] PM: Preparing system for mem sleep
+<7>[26822.930867] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26822.962968] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26822.982917] PM: Entering mem sleep
+<7>[26822.986319] [pm]3 state begin
+<7>[26822.990109] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26822.996274] [CSI]csi_suspend
+<7>[26822.999689] [audio codec]:suspend start5000
+<7>[26823.602035] [audio codec]:suspend end
+<7>[26823.605771] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26823.612360] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26823.618941] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26823.625515] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26823.632088] [mmc]: mmc 0 power off !!
+<7>[26823.637567] pmu_suspend_chgcur = 1000000
+<7>[26823.641950] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26823.647693] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26823.655877] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26823.660708] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:53
+<6>[26823.666469] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26823.671298] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:53
+<6>[26823.677057] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26823.681902] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:53
+<6>[26823.687753] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26823.692601] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:53
+<6>[26823.698361] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26823.703203] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:48:53
+<7>[26823.709052] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26823.713302] [sw-ohci2]: close clock
+<7>[26823.716837] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26823.721054] [sw-ehci2]: Set USB Power OFF
+<7>[26823.725066] [sw-ehci2]: close clock
+<7>[26824.740390] [sw_hcd0]: sw_hcd_suspend start
+<7>[26824.740410] wrn: hcd is disable, need not enter to suspend
+<7>[26824.740430] [sw_udc]: sw_udc_suspend start
+<7>[26824.740443] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26824.740745] [i2c2] suspend okay.. 
+<7>[26824.740784] [i2c1] suspend okay.. 
+<7>[26824.740804] [NAND] nand_suspend 
+<7>[26824.740830] [NAND] nand_suspend ok 
+<7>[26824.740847] [sw_dmac_suspend] enter
+<6>[26824.740914] PM: suspend of devices complete after 1751.060 msecs
+<7>[26824.740928] [pm]prepare
+<6>[26824.741279] PM: late suspend of devices complete after 0.330 msecs
+<7>[26824.741294] [pm]prepare_late
+<7>[26824.743559] [pm]enter state 3
+<7>[26824.750016] [pm]platform wakeup, wakesource is:0x10
+<6>[26824.750016] PM: early resume of devices complete after 0.203 msecs
+<6>[26824.750016] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26824.750016] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:11
+<6>[26824.750016] wakeup wake lock: alarm_rtc
+<7>[26824.750016] [pm]platform wakeup finish
+<7>[26824.750016] [sw_dmac_resume] enter
+<7>[26824.750016] [NAND] nand_resume 
+<7>[26824.750016] [NAND] nand gpio_request
+<7>[26824.750016] [NAND] nand gpio_request fail
+<7>[26824.750016] twi1, apb clock = 24000000 
+<7>[26824.750016] [i2c1] resume okay.. 
+<7>[26824.750016] twi2, apb clock = 24000000 
+<7>[26824.750016] [i2c2] resume okay.. 
+<7>[26824.750016] [sw_udc]: sw_udc_resume start
+<7>[26824.750016] [sw_udc]: udc is disable, need not enter to resume
+<7>[26824.750016] [sw_hcd0]: sw_hcd_resume start
+<7>[26824.750016] wrn: hcd is disable, need not resume
+<7>[26824.760505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26824.764605] [sw-ehci2]: open clock
+<7>[26824.787983] [sw-ehci2]: Set USB Power ON
+<7>[26824.791930] [sw-ehci2]: lost power, restarting
+<4>[26824.796374] usb usb2: root hub lost power or was reset
+<7>[26824.801573] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26824.805668] [sw-ohci2]: open clock
+<7>[26824.810027] ========== LCD SPI data translation finished ===========
+<7>[26824.820041] ehci_irq: port change detect
+<4>[26824.894042] usb usb3: root hub lost power or was reset
+<6>[26824.899331] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26824.904156] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:11
+<7>[26824.913964] [AXP]Cur_CoulombCounter	= 4814
+<7>[26824.918060] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26824.924287] [AXP]=======================val = 0x0
+<7>[26824.930251] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26824.934893] [mmc]: mmc 0 power on !!
+<7>[26825.033860] [audio codec]:resume start
+<7>[26825.037640] codec_resume_events,1482
+<7>[26825.041274] [audio codec]:resume end
+<7>[26825.044998] [mmc_pm]: No sdio card, please check your config !!
+<6>[26825.160189] [CSI]csi_resume
+<6>[26825.180072] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26825.331383] PM: resume of devices complete after 587.956 msecs
+<7>[26825.337457] [pm]aw_pm_end!
+<7>[26825.340227] PM: Finishing wakeup.
+<7>[26825.343542] Restarting tasks ... done.
+<6>[26825.358533] suspend: exit suspend, ret = 0 (2013-04-10 22:49:58.024393863 UTC)
+<7>[26825.690041] ====pa turn on===
+<7>[26830.400790] [pm]valid
+<6>[26830.403084] PM: Syncing filesystems ... done.
+<7>[26830.413941] PM: Preparing system for mem sleep
+<7>[26830.418420] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26830.453008] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26830.472945] PM: Entering mem sleep
+<7>[26830.476351] [pm]3 state begin
+<7>[26830.480288] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26830.486477] [CSI]csi_suspend
+<7>[26830.490805] [audio codec]:suspend start5000
+<7>[26831.093550] [audio codec]:suspend end
+<7>[26831.097309] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26831.103917] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26831.110531] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26831.117114] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26831.123713] [mmc]: mmc 0 power off !!
+<7>[26831.129285] pmu_suspend_chgcur = 1000000
+<7>[26831.133697] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26831.139444] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26831.145816] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26831.150644] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:17
+<6>[26831.156412] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26831.161233] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:17
+<6>[26831.166980] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26831.171803] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:17
+<6>[26831.177653] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26831.182471] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:17
+<6>[26831.188227] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26831.193094] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:49:17
+<7>[26831.198936] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26831.203155] [sw-ohci2]: close clock
+<7>[26831.206689] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26831.210916] [sw-ehci2]: Set USB Power OFF
+<7>[26831.214929] [sw-ehci2]: close clock
+<7>[26832.230502] [sw_hcd0]: sw_hcd_suspend start
+<7>[26832.230530] wrn: hcd is disable, need not enter to suspend
+<7>[26832.230556] [sw_udc]: sw_udc_suspend start
+<7>[26832.230573] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26832.230963] [i2c2] suspend okay.. 
+<7>[26832.231016] [i2c1] suspend okay.. 
+<7>[26832.231043] [NAND] nand_suspend 
+<7>[26832.231077] [NAND] nand_suspend ok 
+<7>[26832.231099] [sw_dmac_suspend] enter
+<6>[26832.231190] PM: suspend of devices complete after 1751.191 msecs
+<7>[26832.231209] [pm]prepare
+<6>[26832.231647] PM: late suspend of devices complete after 0.413 msecs
+<7>[26832.231666] [pm]prepare_late
+<7>[26832.234005] [pm]enter state 3
+<7>[26832.240022] [pm]platform wakeup, wakesource is:0x10
+<6>[26832.240022] PM: early resume of devices complete after 0.255 msecs
+<6>[26832.240022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26832.240022] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:53:57
+<6>[26832.240022] wakeup wake lock: alarm_rtc
+<7>[26832.240022] [pm]platform wakeup finish
+<7>[26832.240022] [sw_dmac_resume] enter
+<7>[26832.240022] [NAND] nand_resume 
+<7>[26832.240022] [NAND] nand gpio_request
+<7>[26832.240022] [NAND] nand gpio_request fail
+<7>[26832.240022] twi1, apb clock = 24000000 
+<7>[26832.240022] [i2c1] resume okay.. 
+<7>[26832.240022] twi2, apb clock = 24000000 
+<7>[26832.240022] [i2c2] resume okay.. 
+<7>[26832.240022] [sw_udc]: sw_udc_resume start
+<7>[26832.240022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26832.240022] [sw_hcd0]: sw_hcd_resume start
+<7>[26832.240022] wrn: hcd is disable, need not resume
+<7>[26832.250503] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26832.254601] [sw-ehci2]: open clock
+<7>[26832.277983] [sw-ehci2]: Set USB Power ON
+<7>[26832.281929] [sw-ehci2]: lost power, restarting
+<4>[26832.286372] usb usb2: root hub lost power or was reset
+<7>[26832.291569] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26832.295664] [sw-ohci2]: open clock
+<7>[26832.300028] ========== LCD SPI data translation finished ===========
+<7>[26832.310044] ehci_irq: port change detect
+<4>[26832.384043] usb usb3: root hub lost power or was reset
+<6>[26832.389329] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26832.394152] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:53:57
+<7>[26832.404019] [AXP]Cur_CoulombCounter	= 4813
+<7>[26832.408115] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26832.414306] [AXP]=======================val = 0x0
+<7>[26832.420269] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26832.424917] [mmc]: mmc 0 power on !!
+<7>[26832.523858] [audio codec]:resume start
+<7>[26832.527638] codec_resume_events,1482
+<7>[26832.531246] [audio codec]:resume end
+<7>[26832.534977] [mmc_pm]: No sdio card, please check your config !!
+<6>[26832.650227] [CSI]csi_resume
+<6>[26832.670066] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26832.821384] PM: resume of devices complete after 587.238 msecs
+<7>[26832.827456] [pm]aw_pm_end!
+<7>[26832.830203] PM: Finishing wakeup.
+<7>[26832.833517] Restarting tasks ... done.
+<6>[26832.848559] suspend: exit suspend, ret = 0 (2013-04-10 22:54:44.323933797 UTC)
+<7>[26833.180041] ====pa turn on===
+<7>[26837.967976] [pm]valid
+<6>[26837.970437] PM: Syncing filesystems ... done.
+<7>[26837.980444] PM: Preparing system for mem sleep
+<7>[26837.984925] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26838.013042] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26838.032947] PM: Entering mem sleep
+<7>[26838.036365] [pm]3 state begin
+<7>[26838.040303] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26838.046492] [CSI]csi_suspend
+<7>[26838.050807] [audio codec]:suspend start5000
+<7>[26838.653593] [audio codec]:suspend end
+<7>[26838.657349] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26838.663963] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26838.670557] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26838.677129] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26838.683733] [mmc]: mmc 0 power off !!
+<7>[26838.689305] pmu_suspend_chgcur = 1000000
+<7>[26838.693713] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26838.699467] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26838.705842] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26838.710673] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:54:3
+<6>[26838.716348] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26838.721176] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:54:3
+<6>[26838.726836] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26838.731654] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:54:3
+<6>[26838.737424] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26838.742242] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:54:3
+<6>[26838.747912] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26838.752732] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:54:3
+<7>[26838.758492] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26838.762710] [sw-ohci2]: close clock
+<7>[26838.766245] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26838.770462] [sw-ehci2]: Set USB Power OFF
+<7>[26838.774481] [sw-ehci2]: close clock
+<7>[26839.791339] [sw_hcd0]: sw_hcd_suspend start
+<7>[26839.791368] wrn: hcd is disable, need not enter to suspend
+<7>[26839.791393] [sw_udc]: sw_udc_suspend start
+<7>[26839.791412] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26839.791798] [i2c2] suspend okay.. 
+<7>[26839.791850] [i2c1] suspend okay.. 
+<7>[26839.791878] [NAND] nand_suspend 
+<7>[26839.791913] [NAND] nand_suspend ok 
+<7>[26839.791935] [sw_dmac_suspend] enter
+<6>[26839.792023] PM: suspend of devices complete after 1751.950 msecs
+<7>[26839.792042] [pm]prepare
+<6>[26839.792479] PM: late suspend of devices complete after 0.415 msecs
+<7>[26839.792498] [pm]prepare_late
+<7>[26839.794831] [pm]enter state 3
+<7>[26839.800017] [pm]platform wakeup, wakesource is:0x10
+<6>[26839.800017] PM: early resume of devices complete after 0.236 msecs
+<7>[26839.800017] [pm]platform wakeup finish
+<6>[26839.800017] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26839.800017] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:43
+<6>[26839.800017] wakeup wake lock: alarm_rtc
+<7>[26839.800017] [sw_dmac_resume] enter
+<7>[26839.800017] [NAND] nand_resume 
+<7>[26839.800017] [NAND] nand gpio_request
+<7>[26839.800017] [NAND] nand gpio_request fail
+<7>[26839.800017] twi1, apb clock = 24000000 
+<7>[26839.800017] [i2c1] resume okay.. 
+<7>[26839.800017] twi2, apb clock = 24000000 
+<7>[26839.800017] [i2c2] resume okay.. 
+<7>[26839.800017] [sw_udc]: sw_udc_resume start
+<7>[26839.800017] [sw_udc]: udc is disable, need not enter to resume
+<7>[26839.800017] [sw_hcd0]: sw_hcd_resume start
+<7>[26839.800017] wrn: hcd is disable, need not resume
+<7>[26839.810505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26839.814605] [sw-ehci2]: open clock
+<7>[26839.838018] [sw-ehci2]: Set USB Power ON
+<7>[26839.841967] [sw-ehci2]: lost power, restarting
+<4>[26839.846412] usb usb2: root hub lost power or was reset
+<7>[26839.851604] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26839.855697] [sw-ohci2]: open clock
+<7>[26839.860027] ========== LCD SPI data translation finished ===========
+<7>[26839.870040] ehci_irq: port change detect
+<4>[26839.944045] usb usb3: root hub lost power or was reset
+<6>[26839.949329] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26839.954152] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:43
+<7>[26839.964031] [AXP]Cur_CoulombCounter	= 4812
+<7>[26839.968127] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26839.974328] [AXP]=======================val = 0x0
+<7>[26839.980293] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26839.984935] [mmc]: mmc 0 power on !!
+<7>[26840.083859] [audio codec]:resume start
+<7>[26840.087640] codec_resume_events,1482
+<7>[26840.091248] [audio codec]:resume end
+<7>[26840.094983] [mmc_pm]: No sdio card, please check your config !!
+<6>[26840.210210] [CSI]csi_resume
+<6>[26840.230069] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26840.381309] PM: resume of devices complete after 588.322 msecs
+<7>[26840.387373] [pm]aw_pm_end!
+<7>[26840.390124] PM: Finishing wakeup.
+<7>[26840.393439] Restarting tasks ... done.
+<6>[26840.408469] suspend: exit suspend, ret = 0 (2013-04-10 22:59:30.692923079 UTC)
+<7>[26840.740044] ====pa turn on===
+<7>[26845.462036] [pm]valid
+<6>[26845.464343] PM: Syncing filesystems ... done.
+<7>[26845.475222] PM: Preparing system for mem sleep
+<7>[26845.479694] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26845.512962] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26845.532921] PM: Entering mem sleep
+<7>[26845.536323] [pm]3 state begin
+<7>[26845.540095] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26845.546263] [CSI]csi_suspend
+<7>[26845.549752] [audio codec]:suspend start5000
+<7>[26846.154051] [audio codec]:suspend end
+<7>[26846.157811] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26846.164420] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26846.171033] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26846.177608] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26846.184217] [mmc]: mmc 0 power off !!
+<7>[26846.189775] pmu_suspend_chgcur = 1000000
+<7>[26846.194173] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26846.199919] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26846.206300] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26846.211127] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:49
+<6>[26846.216888] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26846.221716] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:49
+<6>[26846.227462] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26846.232280] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:49
+<6>[26846.238130] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26846.242975] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:49
+<6>[26846.248732] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26846.253572] sunxi-rtc sunxi-rtc: read time 2013-4-10 22:58:49
+<7>[26846.259419] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26846.263657] [sw-ohci2]: close clock
+<7>[26846.267193] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26846.271432] [sw-ehci2]: Set USB Power OFF
+<7>[26846.275444] [sw-ehci2]: close clock
+<7>[26847.290393] [sw_hcd0]: sw_hcd_suspend start
+<7>[26847.290417] wrn: hcd is disable, need not enter to suspend
+<7>[26847.290436] [sw_udc]: sw_udc_suspend start
+<7>[26847.290449] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26847.290744] [i2c2] suspend okay.. 
+<7>[26847.290784] [i2c1] suspend okay.. 
+<7>[26847.290805] [NAND] nand_suspend 
+<7>[26847.290830] [NAND] nand_suspend ok 
+<7>[26847.290847] [sw_dmac_suspend] enter
+<6>[26847.290916] PM: suspend of devices complete after 1751.060 msecs
+<7>[26847.290930] [pm]prepare
+<6>[26847.291274] PM: late suspend of devices complete after 0.328 msecs
+<7>[26847.291289] [pm]prepare_late
+<7>[26847.293556] [pm]enter state 3
+<7>[26847.300018] [pm]platform wakeup, wakesource is:0x10
+<6>[26847.300018] PM: early resume of devices complete after 0.203 msecs
+<6>[26847.300018] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26847.300018] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:29
+<6>[26847.300018] wakeup wake lock: alarm_rtc
+<7>[26847.300018] [pm]platform wakeup finish
+<7>[26847.300018] [sw_dmac_resume] enter
+<7>[26847.300018] [NAND] nand_resume 
+<7>[26847.300018] [NAND] nand gpio_request
+<7>[26847.300018] [NAND] nand gpio_request fail
+<7>[26847.300018] twi1, apb clock = 24000000 
+<7>[26847.300018] [i2c1] resume okay.. 
+<7>[26847.300018] twi2, apb clock = 24000000 
+<7>[26847.300018] [i2c2] resume okay.. 
+<7>[26847.300018] [sw_udc]: sw_udc_resume start
+<7>[26847.300018] [sw_udc]: udc is disable, need not enter to resume
+<7>[26847.300018] [sw_hcd0]: sw_hcd_resume start
+<7>[26847.300018] wrn: hcd is disable, need not resume
+<7>[26847.310498] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26847.314598] [sw-ehci2]: open clock
+<7>[26847.337979] [sw-ehci2]: Set USB Power ON
+<7>[26847.341925] [sw-ehci2]: lost power, restarting
+<4>[26847.346370] usb usb2: root hub lost power or was reset
+<7>[26847.351593] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26847.355687] [sw-ohci2]: open clock
+<7>[26847.360029] ========== LCD SPI data translation finished ===========
+<7>[26847.370043] ehci_irq: port change detect
+<4>[26847.444043] usb usb3: root hub lost power or was reset
+<6>[26847.449326] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26847.454148] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:29
+<7>[26847.463888] [AXP]Cur_CoulombCounter	= 4810
+<7>[26847.467983] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26847.474184] [AXP]=======================val = 0x0
+<7>[26847.480149] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26847.484792] [mmc]: mmc 0 power on !!
+<7>[26847.583862] [audio codec]:resume start
+<7>[26847.587643] codec_resume_events,1482
+<7>[26847.591252] [audio codec]:resume end
+<7>[26847.594980] [mmc_pm]: No sdio card, please check your config !!
+<6>[26847.710189] [CSI]csi_resume
+<6>[26847.730073] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26847.881418] PM: resume of devices complete after 588.012 msecs
+<7>[26847.887479] [pm]aw_pm_end!
+<7>[26847.890244] PM: Finishing wakeup.
+<7>[26847.893558] Restarting tasks ... done.
+<6>[26847.908520] suspend: exit suspend, ret = 0 (2013-04-10 23:04:17.002979275 UTC)
+<7>[26848.240041] ====pa turn on===
+<7>[26852.961875] [pm]valid
+<6>[26852.964188] PM: Syncing filesystems ... done.
+<7>[26852.976571] PM: Preparing system for mem sleep
+<7>[26852.981197] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26853.012986] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26853.032939] PM: Entering mem sleep
+<7>[26853.036345] [pm]3 state begin
+<7>[26853.040287] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26853.046478] [CSI]csi_suspend
+<7>[26853.050835] [audio codec]:suspend start5000
+<7>[26853.653627] [audio codec]:suspend end
+<7>[26853.657384] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26853.663994] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26853.670607] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26853.677181] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26853.683786] [mmc]: mmc 0 power off !!
+<7>[26853.689362] pmu_suspend_chgcur = 1000000
+<7>[26853.693771] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26853.699518] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26853.705900] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26853.710730] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:35
+<6>[26853.716405] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26853.721232] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:35
+<6>[26853.726883] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26853.731702] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:35
+<6>[26853.737465] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26853.742289] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:35
+<6>[26853.747961] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26853.752781] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:3:35
+<7>[26853.758539] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26853.762767] [sw-ohci2]: close clock
+<7>[26853.766306] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26853.770525] [sw-ehci2]: Set USB Power OFF
+<7>[26853.774537] [sw-ehci2]: close clock
+<7>[26854.790502] [sw_hcd0]: sw_hcd_suspend start
+<7>[26854.790529] wrn: hcd is disable, need not enter to suspend
+<7>[26854.790558] [sw_udc]: sw_udc_suspend start
+<7>[26854.790575] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26854.790958] [i2c2] suspend okay.. 
+<7>[26854.791009] [i2c1] suspend okay.. 
+<7>[26854.791040] [NAND] nand_suspend 
+<7>[26854.791073] [NAND] nand_suspend ok 
+<7>[26854.791095] [sw_dmac_suspend] enter
+<6>[26854.791184] PM: suspend of devices complete after 1751.178 msecs
+<7>[26854.791204] [pm]prepare
+<6>[26854.791645] PM: late suspend of devices complete after 0.418 msecs
+<7>[26854.791668] [pm]prepare_late
+<7>[26854.794006] [pm]enter state 3
+<7>[26854.800022] [pm]platform wakeup, wakesource is:0x10
+<6>[26854.800022] PM: early resume of devices complete after 0.248 msecs
+<6>[26854.800022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26854.800022] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:4
+<6>[26854.800022] wakeup wake lock: alarm_rtc
+<7>[26854.800022] [pm]platform wakeup finish
+<7>[26854.800022] [sw_dmac_resume] enter
+<7>[26854.800022] [NAND] nand_resume 
+<7>[26854.800022] [NAND] nand gpio_request
+<7>[26854.800022] [NAND] nand gpio_request fail
+<7>[26854.800022] twi1, apb clock = 24000000 
+<7>[26854.800022] [i2c1] resume okay.. 
+<7>[26854.800022] twi2, apb clock = 24000000 
+<7>[26854.800022] [i2c2] resume okay.. 
+<7>[26854.800022] [sw_udc]: sw_udc_resume start
+<7>[26854.800022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26854.800022] [sw_hcd0]: sw_hcd_resume start
+<7>[26854.800022] wrn: hcd is disable, need not resume
+<7>[26854.810500] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26854.814600] [sw-ehci2]: open clock
+<7>[26854.837977] [sw-ehci2]: Set USB Power ON
+<7>[26854.841919] [sw-ehci2]: lost power, restarting
+<4>[26854.846363] usb usb2: root hub lost power or was reset
+<7>[26854.851559] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26854.855655] [sw-ohci2]: open clock
+<7>[26854.860028] ========== LCD SPI data translation finished ===========
+<7>[26854.870041] ehci_irq: port change detect
+<4>[26854.944044] usb usb3: root hub lost power or was reset
+<6>[26854.949327] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26854.954151] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:4
+<7>[26854.963813] [AXP]Cur_CoulombCounter	= 4809
+<7>[26854.967909] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26854.974098] [AXP]=======================val = 0x0
+<7>[26854.980055] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26854.984699] [mmc]: mmc 0 power on !!
+<7>[26855.083863] [audio codec]:resume start
+<7>[26855.087643] codec_resume_events,1482
+<7>[26855.091254] [audio codec]:resume end
+<7>[26855.094978] [mmc_pm]: No sdio card, please check your config !!
+<6>[26855.210225] [CSI]csi_resume
+<6>[26855.230066] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26855.381376] PM: resume of devices complete after 587.267 msecs
+<7>[26855.387442] [pm]aw_pm_end!
+<7>[26855.390187] PM: Finishing wakeup.
+<7>[26855.393502] Restarting tasks ... done.
+<6>[26855.408561] suspend: exit suspend, ret = 0 (2013-04-10 23:04:52.312144881 UTC)
+<7>[26855.740041] ====pa turn on===
+<7>[26860.549413] [pm]valid
+<6>[26860.553150] PM: Syncing filesystems ... done.
+<7>[26860.563108] PM: Preparing system for mem sleep
+<7>[26860.567586] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26860.602991] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26860.622938] PM: Entering mem sleep
+<7>[26860.626344] [pm]3 state begin
+<7>[26860.630275] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26860.636482] [CSI]csi_suspend
+<7>[26860.640790] [audio codec]:suspend start5000
+<7>[26861.243558] [audio codec]:suspend end
+<7>[26861.247309] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26861.253917] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26861.260546] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26861.267120] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26861.273722] [mmc]: mmc 0 power off !!
+<7>[26861.279317] pmu_suspend_chgcur = 1000000
+<7>[26861.283714] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26861.289461] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26861.295848] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26861.300686] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:10
+<6>[26861.306361] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26861.311183] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:10
+<6>[26861.316850] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26861.321668] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:10
+<6>[26861.327435] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26861.332253] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:10
+<6>[26861.337929] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26861.342750] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:4:10
+<7>[26861.348500] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26861.352722] [sw-ohci2]: close clock
+<7>[26861.356267] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26861.360486] [sw-ehci2]: Set USB Power OFF
+<7>[26861.364498] [sw-ehci2]: close clock
+<7>[26862.380501] [sw_hcd0]: sw_hcd_suspend start
+<7>[26862.380528] wrn: hcd is disable, need not enter to suspend
+<7>[26862.380553] [sw_udc]: sw_udc_suspend start
+<7>[26862.380571] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26862.380961] [i2c2] suspend okay.. 
+<7>[26862.381011] [i2c1] suspend okay.. 
+<7>[26862.381039] [NAND] nand_suspend 
+<7>[26862.381073] [NAND] nand_suspend ok 
+<7>[26862.381096] [sw_dmac_suspend] enter
+<6>[26862.381185] PM: suspend of devices complete after 1751.191 msecs
+<7>[26862.381206] [pm]prepare
+<6>[26862.381647] PM: late suspend of devices complete after 0.418 msecs
+<7>[26862.381667] [pm]prepare_late
+<7>[26862.384000] [pm]enter state 3
+<7>[26862.390022] [pm]platform wakeup, wakesource is:0x10
+<6>[26862.390022] PM: early resume of devices complete after 0.255 msecs
+<6>[26862.390022] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26862.390022] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:50
+<6>[26862.390022] wakeup wake lock: alarm_rtc
+<7>[26862.390022] [pm]platform wakeup finish
+<7>[26862.390022] [sw_dmac_resume] enter
+<7>[26862.390022] [NAND] nand_resume 
+<7>[26862.390022] [NAND] nand gpio_request
+<7>[26862.390022] [NAND] nand gpio_request fail
+<7>[26862.390022] twi1, apb clock = 24000000 
+<7>[26862.390022] [i2c1] resume okay.. 
+<7>[26862.390022] twi2, apb clock = 24000000 
+<7>[26862.390022] [i2c2] resume okay.. 
+<7>[26862.390022] [sw_udc]: sw_udc_resume start
+<7>[26862.390022] [sw_udc]: udc is disable, need not enter to resume
+<7>[26862.390022] [sw_hcd0]: sw_hcd_resume start
+<7>[26862.390022] wrn: hcd is disable, need not resume
+<7>[26862.400505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26862.404605] [sw-ehci2]: open clock
+<7>[26862.427984] [sw-ehci2]: Set USB Power ON
+<7>[26862.431931] [sw-ehci2]: lost power, restarting
+<4>[26862.436375] usb usb2: root hub lost power or was reset
+<7>[26862.441574] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26862.445668] [sw-ohci2]: open clock
+<7>[26862.450027] ========== LCD SPI data translation finished ===========
+<7>[26862.460040] ehci_irq: port change detect
+<4>[26862.534048] usb usb3: root hub lost power or was reset
+<6>[26862.539348] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26862.544172] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:50
+<7>[26862.553923] [AXP]Cur_CoulombCounter	= 4808
+<7>[26862.558018] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26862.564213] [AXP]=======================val = 0x0
+<7>[26862.570183] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26862.574834] [mmc]: mmc 0 power on !!
+<7>[26862.673858] [audio codec]:resume start
+<7>[26862.677640] codec_resume_events,1482
+<7>[26862.681248] [audio codec]:resume end
+<7>[26862.684980] [mmc_pm]: No sdio card, please check your config !!
+<6>[26862.800223] [CSI]csi_resume
+<6>[26862.820064] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26862.971382] PM: resume of devices complete after 587.266 msecs
+<7>[26862.977451] [pm]aw_pm_end!
+<7>[26862.980198] PM: Finishing wakeup.
+<7>[26862.983516] Restarting tasks ... done.
+<6>[26862.998506] suspend: exit suspend, ret = 0 (2013-04-10 23:09:38.711161773 UTC)
+<7>[26863.330041] ====pa turn on===
+<7>[26868.071816] [pm]valid
+<6>[26868.074113] PM: Syncing filesystems ... done.
+<7>[26868.084053] PM: Preparing system for mem sleep
+<7>[26868.088530] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26868.123002] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26868.142939] PM: Entering mem sleep
+<7>[26868.146355] [pm]3 state begin
+<7>[26868.150290] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26868.156476] [CSI]csi_suspend
+<7>[26868.160810] [audio codec]:suspend start5000
+<7>[26868.763540] [audio codec]:suspend end
+<7>[26868.767296] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26868.773910] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26868.780504] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26868.787078] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26868.793707] [mmc]: mmc 0 power off !!
+<7>[26868.799162] pmu_suspend_chgcur = 1000000
+<7>[26868.803567] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26868.809314] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26868.815690] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26868.820536] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:56
+<6>[26868.826213] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26868.831042] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:56
+<6>[26868.836704] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26868.841523] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:56
+<6>[26868.847289] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26868.852113] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:56
+<6>[26868.857781] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26868.862601] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:8:56
+<7>[26868.868359] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26868.872579] [sw-ohci2]: close clock
+<7>[26868.876113] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26868.880328] [sw-ehci2]: Set USB Power OFF
+<7>[26868.884340] [sw-ehci2]: close clock
+<7>[26869.901346] [sw_hcd0]: sw_hcd_suspend start
+<7>[26869.901374] wrn: hcd is disable, need not enter to suspend
+<7>[26869.901400] [sw_udc]: sw_udc_suspend start
+<7>[26869.901417] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26869.901806] [i2c2] suspend okay.. 
+<7>[26869.901859] [i2c1] suspend okay.. 
+<7>[26869.901887] [NAND] nand_suspend 
+<7>[26869.901920] [NAND] nand_suspend ok 
+<7>[26869.901942] [sw_dmac_suspend] enter
+<6>[26869.902033] PM: suspend of devices complete after 1752.026 msecs
+<7>[26869.902052] [pm]prepare
+<6>[26869.902490] PM: late suspend of devices complete after 0.414 msecs
+<7>[26869.902510] [pm]prepare_late
+<7>[26869.904843] [pm]enter state 3
+<7>[26869.910018] [pm]platform wakeup, wakesource is:0x10
+<6>[26869.910018] PM: early resume of devices complete after 0.239 msecs
+<7>[26869.910018] [pm]platform wakeup finish
+<6>[26869.910018] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26869.910018] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:38
+<6>[26869.910018] wakeup wake lock: alarm_rtc
+<7>[26869.910018] [sw_dmac_resume] enter
+<7>[26869.910018] [NAND] nand_resume 
+<7>[26869.910018] [NAND] nand gpio_request
+<7>[26869.910018] [NAND] nand gpio_request fail
+<7>[26869.910018] twi1, apb clock = 24000000 
+<7>[26869.910018] [i2c1] resume okay.. 
+<7>[26869.910018] twi2, apb clock = 24000000 
+<7>[26869.910018] [i2c2] resume okay.. 
+<7>[26869.910018] [sw_udc]: sw_udc_resume start
+<7>[26869.910018] [sw_udc]: udc is disable, need not enter to resume
+<7>[26869.910018] [sw_hcd0]: sw_hcd_resume start
+<7>[26869.910018] wrn: hcd is disable, need not resume
+<7>[26869.920500] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26869.924602] [sw-ehci2]: open clock
+<7>[26869.948000] [sw-ehci2]: Set USB Power ON
+<7>[26869.951960] [sw-ehci2]: lost power, restarting
+<4>[26869.956405] usb usb2: root hub lost power or was reset
+<7>[26869.961606] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26869.965700] [sw-ohci2]: open clock
+<7>[26869.970028] ========== LCD SPI data translation finished ===========
+<7>[26869.980042] ehci_irq: port change detect
+<4>[26870.054044] usb usb3: root hub lost power or was reset
+<6>[26870.059332] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26870.064160] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:38
+<7>[26870.073841] [AXP]Cur_CoulombCounter	= 4807
+<7>[26870.077937] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26870.084161] [AXP]=======================val = 0x0
+<7>[26870.090108] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26870.094749] [mmc]: mmc 0 power on !!
+<7>[26870.193853] [audio codec]:resume start
+<7>[26870.197638] codec_resume_events,1482
+<7>[26870.201266] [audio codec]:resume end
+<7>[26870.204999] [mmc_pm]: No sdio card, please check your config !!
+<6>[26870.320218] [CSI]csi_resume
+<6>[26870.340070] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26870.491401] PM: resume of devices complete after 588.402 msecs
+<7>[26870.497465] [pm]aw_pm_end!
+<7>[26870.500220] PM: Finishing wakeup.
+<7>[26870.503536] Restarting tasks ... done.
+<6>[26870.518528] suspend: exit suspend, ret = 0 (2013-04-10 23:10:27.040123618 UTC)
+<7>[26870.850040] ====pa turn on===
+<7>[26875.604019] [pm]valid
+<6>[26875.606311] PM: Syncing filesystems ... done.
+<7>[26875.615541] PM: Preparing system for mem sleep
+<7>[26875.620129] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26875.652962] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26875.672917] PM: Entering mem sleep
+<7>[26875.676319] [pm]3 state begin
+<7>[26875.680084] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26875.686264] [CSI]csi_suspend
+<7>[26875.689760] [audio codec]:suspend start5000
+<7>[26876.294144] [audio codec]:suspend end
+<7>[26876.297906] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26876.304515] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26876.311133] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26876.317719] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26876.324317] [mmc]: mmc 0 power off !!
+<7>[26876.329876] pmu_suspend_chgcur = 1000000
+<7>[26876.334292] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26876.340065] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26876.346411] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26876.351247] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:44
+<6>[26876.356922] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26876.361742] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:44
+<6>[26876.367402] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26876.372228] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:44
+<6>[26876.377993] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26876.382838] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:44
+<6>[26876.388515] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26876.393357] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:9:44
+<7>[26876.399111] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26876.403348] [sw-ohci2]: close clock
+<7>[26876.406892] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26876.411133] [sw-ehci2]: Set USB Power OFF
+<7>[26876.415146] [sw-ehci2]: close clock
+<7>[26877.430391] [sw_hcd0]: sw_hcd_suspend start
+<7>[26877.430411] wrn: hcd is disable, need not enter to suspend
+<7>[26877.430430] [sw_udc]: sw_udc_suspend start
+<7>[26877.430445] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26877.430742] [i2c2] suspend okay.. 
+<7>[26877.430780] [i2c1] suspend okay.. 
+<7>[26877.430801] [NAND] nand_suspend 
+<7>[26877.430826] [NAND] nand_suspend ok 
+<7>[26877.430843] [sw_dmac_suspend] enter
+<6>[26877.430914] PM: suspend of devices complete after 1751.069 msecs
+<7>[26877.430932] [pm]prepare
+<6>[26877.431275] PM: late suspend of devices complete after 0.327 msecs
+<7>[26877.431290] [pm]prepare_late
+<7>[26877.433550] [pm]enter state 3
+<7>[26877.440018] [pm]platform wakeup, wakesource is:0x10
+<6>[26877.440018] PM: early resume of devices complete after 0.200 msecs
+<6>[26877.440018] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26877.440018] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:35
+<6>[26877.440018] wakeup wake lock: alarm_rtc
+<7>[26877.440018] [pm]platform wakeup finish
+<7>[26877.440018] [sw_dmac_resume] enter
+<7>[26877.440018] [NAND] nand_resume 
+<7>[26877.440018] [NAND] nand gpio_request
+<7>[26877.440018] [NAND] nand gpio_request fail
+<7>[26877.440018] twi1, apb clock = 24000000 
+<7>[26877.440018] [i2c1] resume okay.. 
+<7>[26877.440018] twi2, apb clock = 24000000 
+<7>[26877.440018] [i2c2] resume okay.. 
+<7>[26877.440018] [sw_udc]: sw_udc_resume start
+<7>[26877.440018] [sw_udc]: udc is disable, need not enter to resume
+<7>[26877.440018] [sw_hcd0]: sw_hcd_resume start
+<7>[26877.440018] wrn: hcd is disable, need not resume
+<7>[26877.450505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26877.454605] [sw-ehci2]: open clock
+<7>[26877.477984] [sw-ehci2]: Set USB Power ON
+<7>[26877.481927] [sw-ehci2]: lost power, restarting
+<4>[26877.486371] usb usb2: root hub lost power or was reset
+<7>[26877.491578] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26877.495672] [sw-ohci2]: open clock
+<7>[26877.500027] ========== LCD SPI data translation finished ===========
+<7>[26877.510041] ehci_irq: port change detect
+<4>[26877.584062] usb usb3: root hub lost power or was reset
+<6>[26877.589346] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26877.594166] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:35
+<7>[26877.604017] [AXP]Cur_CoulombCounter	= 4806
+<7>[26877.608113] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26877.614313] [AXP]=======================val = 0x0
+<7>[26877.620268] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26877.624918] [mmc]: mmc 0 power on !!
+<7>[26877.723860] [audio codec]:resume start
+<7>[26877.727641] codec_resume_events,1482
+<7>[26877.731249] [audio codec]:resume end
+<7>[26877.734977] [mmc_pm]: No sdio card, please check your config !!
+<6>[26877.850197] [CSI]csi_resume
+<6>[26877.870070] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26878.021384] PM: resume of devices complete after 587.957 msecs
+<7>[26878.027453] [pm]aw_pm_end!
+<7>[26878.030220] PM: Finishing wakeup.
+<7>[26878.033536] Restarting tasks ... done.
+<6>[26878.048502] suspend: exit suspend, ret = 0 (2013-04-10 23:14:24.379773796 UTC)
+<7>[26878.380041] ====pa turn on===
+<7>[26883.101432] [pm]valid
+<6>[26883.103745] PM: Syncing filesystems ... done.
+<7>[26883.114623] PM: Preparing system for mem sleep
+<7>[26883.119106] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26883.152996] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26883.172950] PM: Entering mem sleep
+<7>[26883.176356] [pm]3 state begin
+<7>[26883.180306] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26883.186497] [CSI]csi_suspend
+<7>[26883.190828] [audio codec]:suspend start5000
+<7>[26883.793630] [audio codec]:suspend end
+<7>[26883.797382] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26883.803996] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26883.810612] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26883.817186] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26883.823795] [mmc]: mmc 0 power off !!
+<7>[26883.829371] pmu_suspend_chgcur = 1000000
+<7>[26883.833779] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26883.839526] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26883.845906] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26883.850733] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:41
+<6>[26883.856494] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26883.861322] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:41
+<6>[26883.867070] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26883.871888] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:41
+<6>[26883.877738] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26883.882562] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:41
+<6>[26883.888317] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26883.893136] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:13:41
+<7>[26883.898977] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26883.903197] [sw-ohci2]: close clock
+<7>[26883.906730] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26883.910949] [sw-ehci2]: Set USB Power OFF
+<7>[26883.914962] [sw-ehci2]: close clock
+<7>[26884.930523] [sw_hcd0]: sw_hcd_suspend start
+<7>[26884.930553] wrn: hcd is disable, need not enter to suspend
+<7>[26884.930579] [sw_udc]: sw_udc_suspend start
+<7>[26884.930597] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26884.930983] [i2c2] suspend okay.. 
+<7>[26884.931035] [i2c1] suspend okay.. 
+<7>[26884.931063] [NAND] nand_suspend 
+<7>[26884.931095] [NAND] nand_suspend ok 
+<7>[26884.931121] [sw_dmac_suspend] enter
+<6>[26884.931210] PM: suspend of devices complete after 1751.136 msecs
+<7>[26884.931228] [pm]prepare
+<6>[26884.931676] PM: late suspend of devices complete after 0.423 msecs
+<7>[26884.931696] [pm]prepare_late
+<7>[26884.934032] [pm]enter state 3
+<7>[26884.940023] [pm]platform wakeup, wakesource is:0x10
+<6>[26884.940023] PM: early resume of devices complete after 0.259 msecs
+<6>[26884.940023] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26884.940023] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:2
+<6>[26884.940023] wakeup wake lock: alarm_rtc
+<7>[26884.940023] [pm]platform wakeup finish
+<7>[26884.940023] [sw_dmac_resume] enter
+<7>[26884.940023] [NAND] nand_resume 
+<7>[26884.940023] [NAND] nand gpio_request
+<7>[26884.940023] [NAND] nand gpio_request fail
+<7>[26884.940023] twi1, apb clock = 24000000 
+<7>[26884.940023] [i2c1] resume okay.. 
+<7>[26884.940023] twi2, apb clock = 24000000 
+<7>[26884.940023] [i2c2] resume okay.. 
+<7>[26884.940023] [sw_udc]: sw_udc_resume start
+<7>[26884.940023] [sw_udc]: udc is disable, need not enter to resume
+<7>[26884.940023] [sw_hcd0]: sw_hcd_resume start
+<7>[26884.940023] wrn: hcd is disable, need not resume
+<7>[26884.950505] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26884.954606] [sw-ehci2]: open clock
+<7>[26884.977982] [sw-ehci2]: Set USB Power ON
+<7>[26884.981929] [sw-ehci2]: lost power, restarting
+<4>[26884.986373] usb usb2: root hub lost power or was reset
+<7>[26884.991581] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26884.995675] [sw-ohci2]: open clock
+<7>[26885.000030] ========== LCD SPI data translation finished ===========
+<7>[26885.010040] ehci_irq: port change detect
+<4>[26885.084079] usb usb3: root hub lost power or was reset
+<6>[26885.089357] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26885.094180] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:2
+<7>[26885.103963] [AXP]Cur_CoulombCounter	= 4805
+<7>[26885.108061] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26885.114264] [AXP]=======================val = 0x0
+<7>[26885.120225] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26885.124871] [mmc]: mmc 0 power on !!
+<7>[26885.223866] [audio codec]:resume start
+<7>[26885.227652] codec_resume_events,1482
+<7>[26885.231262] [audio codec]:resume end
+<7>[26885.234990] [mmc_pm]: No sdio card, please check your config !!
+<6>[26885.350213] [CSI]csi_resume
+<6>[26885.370062] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26885.521394] PM: resume of devices complete after 587.207 msecs
+<7>[26885.527459] [pm]aw_pm_end!
+<7>[26885.530209] PM: Finishing wakeup.
+<7>[26885.533524] Restarting tasks ... done.
+<6>[26885.551064] suspend: exit suspend, ret = 0 (2013-04-10 23:14:51.691877799 UTC)
+<7>[26885.880040] ====pa turn on===
+<7>[26890.585502] [pm]valid
+<6>[26890.587800] PM: Syncing filesystems ... done.
+<7>[26890.597776] PM: Preparing system for mem sleep
+<7>[26890.602390] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26890.632997] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26890.652960] PM: Entering mem sleep
+<7>[26890.656366] [pm]3 state begin
+<7>[26890.660332] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26890.666520] [CSI]csi_suspend
+<7>[26890.670835] [audio codec]:suspend start5000
+<7>[26891.273599] [audio codec]:suspend end
+<7>[26891.277357] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26891.283972] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26891.290577] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26891.297162] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26891.303770] [mmc]: mmc 0 power off !!
+<7>[26891.309351] pmu_suspend_chgcur = 1000000
+<7>[26891.313757] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26891.319504] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26891.325882] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26891.330712] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:8
+<6>[26891.336387] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26891.341239] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:8
+<6>[26891.346916] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26891.351754] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:8
+<6>[26891.357519] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26891.362362] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:8
+<6>[26891.368032] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26891.372871] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:14:8
+<7>[26891.378622] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26891.382847] [sw-ohci2]: close clock
+<7>[26891.386379] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26891.390595] [sw-ehci2]: Set USB Power OFF
+<7>[26891.394607] [sw-ehci2]: close clock
+<7>[26892.410505] [sw_hcd0]: sw_hcd_suspend start
+<7>[26892.410535] wrn: hcd is disable, need not enter to suspend
+<7>[26892.410560] [sw_udc]: sw_udc_suspend start
+<7>[26892.410577] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26892.410968] [i2c2] suspend okay.. 
+<7>[26892.411021] [i2c1] suspend okay.. 
+<7>[26892.411048] [NAND] nand_suspend 
+<7>[26892.411081] [NAND] nand_suspend ok 
+<7>[26892.411103] [sw_dmac_suspend] enter
+<6>[26892.411190] PM: suspend of devices complete after 1751.074 msecs
+<7>[26892.411210] [pm]prepare
+<6>[26892.411653] PM: late suspend of devices complete after 0.418 msecs
+<7>[26892.411672] [pm]prepare_late
+<7>[26892.414007] [pm]enter state 3
+<7>[26892.420024] [pm]platform wakeup, wakesource is:0x10
+<6>[26892.420024] PM: early resume of devices complete after 0.257 msecs
+<6>[26892.420024] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26892.420024] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:20
+<6>[26892.420024] wakeup wake lock: alarm_rtc
+<7>[26892.420024] [pm]platform wakeup finish
+<7>[26892.420024] [sw_dmac_resume] enter
+<7>[26892.420024] [NAND] nand_resume 
+<7>[26892.420024] [NAND] nand gpio_request
+<7>[26892.420024] [NAND] nand gpio_request fail
+<7>[26892.420024] twi1, apb clock = 24000000 
+<7>[26892.420024] [i2c1] resume okay.. 
+<7>[26892.420024] twi2, apb clock = 24000000 
+<7>[26892.420024] [i2c2] resume okay.. 
+<7>[26892.420024] [sw_udc]: sw_udc_resume start
+<7>[26892.420024] [sw_udc]: udc is disable, need not enter to resume
+<7>[26892.420024] [sw_hcd0]: sw_hcd_resume start
+<7>[26892.420024] wrn: hcd is disable, need not resume
+<7>[26892.430496] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26892.434595] [sw-ehci2]: open clock
+<7>[26892.457974] [sw-ehci2]: Set USB Power ON
+<7>[26892.461917] [sw-ehci2]: lost power, restarting
+<4>[26892.466361] usb usb2: root hub lost power or was reset
+<7>[26892.471554] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26892.475649] [sw-ohci2]: open clock
+<7>[26892.480028] ========== LCD SPI data translation finished ===========
+<7>[26892.490062] ehci_irq: port change detect
+<4>[26892.564043] usb usb3: root hub lost power or was reset
+<6>[26892.569328] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26892.574147] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:20
+<7>[26892.584016] [AXP]Cur_CoulombCounter	= 4804
+<7>[26892.588112] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26892.594312] [AXP]=======================val = 0x0
+<7>[26892.600268] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26892.604911] [mmc]: mmc 0 power on !!
+<7>[26892.703857] [audio codec]:resume start
+<7>[26892.707640] codec_resume_events,1482
+<7>[26892.711247] [audio codec]:resume end
+<7>[26892.714976] [mmc_pm]: No sdio card, please check your config !!
+<6>[26892.830218] [CSI]csi_resume
+<6>[26892.850069] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26893.001375] PM: resume of devices complete after 587.227 msecs
+<7>[26893.007441] [pm]aw_pm_end!
+<7>[26893.010191] PM: Finishing wakeup.
+<7>[26893.013506] Restarting tasks ... done.
+<6>[26893.028488] suspend: exit suspend, ret = 0 (2013-04-10 23:19:09.978506533 UTC)
+<7>[26893.360041] ====pa turn on===
+<7>[26898.081162] [pm]valid
+<6>[26898.083475] PM: Syncing filesystems ... done.
+<7>[26898.094505] PM: Preparing system for mem sleep
+<7>[26898.098987] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26898.132995] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26898.152947] PM: Entering mem sleep
+<7>[26898.156353] [pm]3 state begin
+<7>[26898.160294] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26898.166483] [CSI]csi_suspend
+<7>[26898.170791] [audio codec]:suspend start5000
+<7>[26898.773565] [audio codec]:suspend end
+<7>[26898.777319] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26898.783934] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26898.790529] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26898.797116] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26898.803722] [mmc]: mmc 0 power off !!
+<7>[26898.809295] pmu_suspend_chgcur = 1000000
+<7>[26898.813701] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26898.819449] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26898.825828] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26898.830657] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:26
+<6>[26898.836422] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26898.841251] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:26
+<6>[26898.846999] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26898.851819] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:26
+<6>[26898.857668] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26898.862534] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:26
+<6>[26898.868292] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26898.873113] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:18:26
+<7>[26898.878963] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26898.883179] [sw-ohci2]: close clock
+<7>[26898.886716] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26898.890932] [sw-ehci2]: Set USB Power OFF
+<7>[26898.894943] [sw-ehci2]: close clock
+<7>[26899.910386] [sw_hcd0]: sw_hcd_suspend start
+<7>[26899.910408] wrn: hcd is disable, need not enter to suspend
+<7>[26899.910427] [sw_udc]: sw_udc_suspend start
+<7>[26899.910440] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26899.910736] [i2c2] suspend okay.. 
+<7>[26899.910776] [i2c1] suspend okay.. 
+<7>[26899.910796] [NAND] nand_suspend 
+<7>[26899.910821] [NAND] nand_suspend ok 
+<7>[26899.910838] [sw_dmac_suspend] enter
+<6>[26899.910908] PM: suspend of devices complete after 1750.846 msecs
+<7>[26899.910922] [pm]prepare
+<6>[26899.911266] PM: late suspend of devices complete after 0.327 msecs
+<7>[26899.911280] [pm]prepare_late
+<7>[26899.913552] [pm]enter state 3
+<7>[26899.920016] [pm]platform wakeup, wakesource is:0x10
+<6>[26899.920016] PM: early resume of devices complete after 0.199 msecs
+<6>[26899.920016] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26899.920016] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:21
+<6>[26899.920016] wakeup wake lock: alarm_rtc
+<7>[26899.920016] [pm]platform wakeup finish
+<7>[26899.920016] [sw_dmac_resume] enter
+<7>[26899.920016] [NAND] nand_resume 
+<7>[26899.920016] [NAND] nand gpio_request
+<7>[26899.920016] [NAND] nand gpio_request fail
+<7>[26899.920016] twi1, apb clock = 24000000 
+<7>[26899.920016] [i2c1] resume okay.. 
+<7>[26899.920016] twi2, apb clock = 24000000 
+<7>[26899.920016] [i2c2] resume okay.. 
+<7>[26899.920016] [sw_udc]: sw_udc_resume start
+<7>[26899.920016] [sw_udc]: udc is disable, need not enter to resume
+<7>[26899.920016] [sw_hcd0]: sw_hcd_resume start
+<7>[26899.920016] wrn: hcd is disable, need not resume
+<7>[26899.930504] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26899.934603] [sw-ehci2]: open clock
+<7>[26899.957984] [sw-ehci2]: Set USB Power ON
+<7>[26899.961927] [sw-ehci2]: lost power, restarting
+<4>[26899.966371] usb usb2: root hub lost power or was reset
+<7>[26899.971571] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26899.975665] [sw-ohci2]: open clock
+<7>[26899.980027] ========== LCD SPI data translation finished ===========
+<7>[26899.990048] ehci_irq: port change detect
+<4>[26900.064083] usb usb3: root hub lost power or was reset
+<6>[26900.069362] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26900.074183] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:21
+<7>[26900.083986] [AXP]Cur_CoulombCounter	= 4803
+<7>[26900.088081] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26900.094279] [AXP]=======================val = 0x0
+<7>[26900.100219] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26900.104860] [mmc]: mmc 0 power on !!
+<7>[26900.203863] [audio codec]:resume start
+<7>[26900.207648] codec_resume_events,1482
+<7>[26900.211256] [audio codec]:resume end
+<7>[26900.214983] [mmc_pm]: No sdio card, please check your config !!
+<6>[26900.330213] [CSI]csi_resume
+<6>[26900.350062] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26900.501385] PM: resume of devices complete after 587.957 msecs
+<7>[26900.507450] [pm]aw_pm_end!
+<7>[26900.510199] PM: Finishing wakeup.
+<7>[26900.513514] Restarting tasks ... done.
+<6>[26900.528728] suspend: exit suspend, ret = 0 (2013-04-10 23:20:11.288260600 UTC)
+<7>[26900.860040] ====pa turn on===
+<7>[26905.564533] [pm]valid
+<6>[26905.566825] PM: Syncing filesystems ... done.
+<7>[26905.576045] PM: Preparing system for mem sleep
+<7>[26905.580628] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26905.612979] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26905.632930] PM: Entering mem sleep
+<7>[26905.636333] [pm]3 state begin
+<7>[26905.640117] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26905.646282] [CSI]csi_suspend
+<7>[26905.649707] [audio codec]:suspend start5000
+<7>[26906.254002] [audio codec]:suspend end
+<7>[26906.257758] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26906.264371] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26906.270995] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26906.277569] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26906.284171] [mmc]: mmc 0 power off !!
+<7>[26906.289690] pmu_suspend_chgcur = 1000000
+<7>[26906.294098] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26906.299845] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26906.306228] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26906.311077] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:27
+<6>[26906.316841] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26906.321689] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:27
+<6>[26906.327442] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26906.332280] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:27
+<6>[26906.338133] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26906.342958] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:27
+<6>[26906.348714] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26906.353538] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:19:27
+<7>[26906.359383] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26906.363611] [sw-ohci2]: close clock
+<7>[26906.367145] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26906.371362] [sw-ehci2]: Set USB Power OFF
+<7>[26906.375373] [sw-ehci2]: close clock
+<7>[26907.390393] [sw_hcd0]: sw_hcd_suspend start
+<7>[26907.390416] wrn: hcd is disable, need not enter to suspend
+<7>[26907.390435] [sw_udc]: sw_udc_suspend start
+<7>[26907.390448] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26907.390747] [i2c2] suspend okay.. 
+<7>[26907.390788] [i2c1] suspend okay.. 
+<7>[26907.390808] [NAND] nand_suspend 
+<7>[26907.390836] [NAND] nand_suspend ok 
+<7>[26907.390853] [sw_dmac_suspend] enter
+<6>[26907.390923] PM: suspend of devices complete after 1751.058 msecs
+<7>[26907.390938] [pm]prepare
+<6>[26907.391282] PM: late suspend of devices complete after 0.327 msecs
+<7>[26907.391296] [pm]prepare_late
+<7>[26907.393553] [pm]enter state 3
+<7>[26907.400018] [pm]platform wakeup, wakesource is:0x10
+<6>[26907.400018] PM: early resume of devices complete after 0.201 msecs
+<6>[26907.400018] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26907.400018] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:5
+<6>[26907.400018] wakeup wake lock: alarm_rtc
+<7>[26907.400018] [pm]platform wakeup finish
+<7>[26907.400018] [sw_dmac_resume] enter
+<7>[26907.400018] [NAND] nand_resume 
+<7>[26907.400018] [NAND] nand gpio_request
+<7>[26907.400018] [NAND] nand gpio_request fail
+<7>[26907.400018] twi1, apb clock = 24000000 
+<7>[26907.400018] [i2c1] resume okay.. 
+<7>[26907.400018] twi2, apb clock = 24000000 
+<7>[26907.400018] [i2c2] resume okay.. 
+<7>[26907.400018] [sw_udc]: sw_udc_resume start
+<7>[26907.400018] [sw_udc]: udc is disable, need not enter to resume
+<7>[26907.400018] [sw_hcd0]: sw_hcd_resume start
+<7>[26907.400018] wrn: hcd is disable, need not resume
+<7>[26907.410499] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26907.414597] [sw-ehci2]: open clock
+<7>[26907.437978] [sw-ehci2]: Set USB Power ON
+<7>[26907.441922] [sw-ehci2]: lost power, restarting
+<4>[26907.446367] usb usb2: root hub lost power or was reset
+<7>[26907.451580] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26907.455674] [sw-ohci2]: open clock
+<7>[26907.460028] ========== LCD SPI data translation finished ===========
+<7>[26907.470041] ehci_irq: port change detect
+<4>[26907.544045] usb usb3: root hub lost power or was reset
+<6>[26907.549334] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26907.554159] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:5
+<7>[26907.563840] [AXP]Cur_CoulombCounter	= 4802
+<7>[26907.567936] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26907.574164] [AXP]=======================val = 0x0
+<7>[26907.580110] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26907.584755] [mmc]: mmc 0 power on !!
+<7>[26907.683857] [audio codec]:resume start
+<7>[26907.687638] codec_resume_events,1482
+<7>[26907.691262] [audio codec]:resume end
+<7>[26907.694990] [mmc_pm]: No sdio card, please check your config !!
+<6>[26907.810214] [CSI]csi_resume
+<6>[26907.830070] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26907.981389] PM: resume of devices complete after 587.960 msecs
+<7>[26907.987458] [pm]aw_pm_end!
+<7>[26907.990205] PM: Finishing wakeup.
+<7>[26907.993519] Restarting tasks ... done.
+<6>[26908.008529] suspend: exit suspend, ret = 0 (2013-04-10 23:23:55.578022811 UTC)
+<7>[26908.340041] ====pa turn on===
+<7>[26913.124270] [pm]valid
+<6>[26913.126567] PM: Syncing filesystems ... done.
+<7>[26913.136457] PM: Preparing system for mem sleep
+<7>[26913.141073] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<7>[26913.172989] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<7>[26913.192957] PM: Entering mem sleep
+<7>[26913.196373] [pm]3 state begin
+<7>[26913.200328] padapter->bup=0 bDriverStopped=1 bSurpriseRemoved = 1
+<6>[26913.206516] [CSI]csi_suspend
+<7>[26913.210851] [audio codec]:suspend start5000
+<7>[26913.813568] [audio codec]:suspend end
+<7>[26913.817322] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26913.823934] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26913.830544] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26913.837118] [mmc]: sdxc_request_done(L1116): smc 0 err, cmd 7,  RTO !!
+<7>[26913.843724] [mmc]: mmc 0 power off !!
+<7>[26913.849303] pmu_suspend_chgcur = 1000000
+<7>[26913.853710] [AXP-APP][suspend]pmu_suspendpwroff_vol = 3500000
+<7>[26913.859465] [AXP-APP][suspend]pmu_suspendpwroff_vol val = 0x71
+<6>[26913.865841] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26913.870669] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:11
+<6>[26913.876433] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26913.881263] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:11
+<6>[26913.887011] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26913.891852] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:11
+<6>[26913.897710] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26913.902547] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:11
+<6>[26913.908304] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26913.913144] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:11
+<7>[26913.918989] [sw-ohci2]: sw_ohci_hcd_suspend
+<7>[26913.923229] [sw-ohci2]: close clock
+<7>[26913.926763] [sw-ehci2]: sw_ehci_hcd_suspend
+<7>[26913.930981] [sw-ehci2]: Set USB Power OFF
+<7>[26913.935000] [sw-ehci2]: close clock
+<7>[26914.950513] [sw_hcd0]: sw_hcd_suspend start
+<7>[26914.950540] wrn: hcd is disable, need not enter to suspend
+<7>[26914.950566] [sw_udc]: sw_udc_suspend start
+<7>[26914.950584] [sw_udc]: udc is disable, need not enter to suspend
+<7>[26914.950965] [i2c2] suspend okay.. 
+<7>[26914.951017] [i2c1] suspend okay.. 
+<7>[26914.951045] [NAND] nand_suspend 
+<7>[26914.951079] [NAND] nand_suspend ok 
+<7>[26914.951101] [sw_dmac_suspend] enter
+<6>[26914.951191] PM: suspend of devices complete after 1751.086 msecs
+<7>[26914.951213] [pm]prepare
+<6>[26914.951651] PM: late suspend of devices complete after 0.415 msecs
+<7>[26914.951671] [pm]prepare_late
+<7>[26914.953997] [pm]enter state 3
+<7>[26914.960023] [pm]platform wakeup, wakesource is:0x1
+<6>[26914.960023] PM: early resume of devices complete after 0.255 msecs
+<7>[26914.960023] [pm]platform wakeup finish
+<7>[26914.960023] [sw_dmac_resume] enter
+<7>[26914.960023] [NAND] nand_resume 
+<7>[26914.960023] [NAND] nand gpio_request
+<7>[26914.960023] [NAND] nand gpio_request fail
+<7>[26914.960023] twi1, apb clock = 24000000 
+<7>[26914.960023] [i2c1] resume okay.. 
+<7>[26914.960023] twi2, apb clock = 24000000 
+<7>[26914.960023] [i2c2] resume okay.. 
+<7>[26914.960023] [sw_udc]: sw_udc_resume start
+<7>[26914.960023] [sw_udc]: udc is disable, need not enter to resume
+<7>[26914.960023] [sw_hcd0]: sw_hcd_resume start
+<7>[26914.960023] wrn: hcd is disable, need not resume
+<7>[26914.970641] [sw-ehci2]: sw_ehci_hcd_resume
+<7>[26914.974740] [sw-ehci2]: open clock
+<7>[26915.019796] [sw-ehci2]: Set USB Power ON
+<7>[26915.023758] ========== LCD SPI data translation finished ===========
+<7>[26915.030293] [sw-ehci2]: lost power, restarting
+<4>[26915.034755] usb usb2: root hub lost power or was reset
+<7>[26915.039940] [sw-ohci2]: sw_ohci_hcd_resume
+<7>[26915.044268] [sw-ohci2]: open clock
+<7>[26915.057854] ehci_irq: port change detect
+<4>[26915.154095] usb usb3: root hub lost power or was reset
+<6>[26915.159452] wakeup wake lock: event0-268
+<6>[26915.163502] sunxi-rtc sunxi-rtc: sunxi_rtc_gettime
+<6>[26915.168310] sunxi-rtc sunxi-rtc: read time 2013-4-10 23:23:19
+<7>[26915.175986] [AXP]battery state change
+<7>[26915.183273] charger->usb_valid = 1
+<7>[26915.187718] [AXP]axp_battery_event, 745, event = 0x8 
+<7>[26915.194308] [AXP]Cur_CoulombCounter	= 4801
+<7>[26915.198403] [AXP]Resume:before modify:charger->rest_vol = 77
+<7>[26915.204607] [AXP]=======================val = 0x0
+<7>[26915.210547] [AXP-APP]pmu_resume_chgcur = 300000
+<7>[26915.215183] [mmc]: mmc 0 power on !!
+<7>[26915.313865] [audio codec]:resume start
+<7>[26915.317659] codec_resume_events,1482
+<7>[26915.321268] [audio codec]:resume end
+<7>[26915.324977] [mmc_pm]: No sdio card, please check your config !!
+<6>[26915.410057] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<6>[26915.440197] [CSI]csi_resume
+<6>[26915.561359] PM: resume of devices complete after 608.507 msecs
+<7>[26915.567441] [pm]aw_pm_end!
+<7>[26915.570190] PM: Finishing wakeup.
+<7>[26915.573503] Restarting tasks ... done.
+<6>[26915.591060] suspend: exit suspend, ret = 0 (2013-04-10 23:24:09.915958213 UTC)
+<6>[26915.633556] request_suspend_state: wakeup (3->0) at 26915633530518 (2013-04-10 23:24:09.958440129 UTC)
+<7>[26915.642992] ==display late resume enter
+<7>[26915.660187] enter laterresume: sun4i_keyboard_resume. 
+<7>[26915.665338] [AXP]======late resume=======
+<7>[26915.676355] [AXP-APP]pmu_resume_chgcur = 300000
+<6>[26915.686225] mma7660 late resume
+<7>[26915.692919] enter laterresume: goodix_ts_resume. 
+<7>[26915.697655] rtw_late_resume
+<7>[26915.700845] incomplete xfer (0x20)
+<7>[26915.710279] ###########  rtw_resume  #################
+<7>[26915.715462] bkeepfwalive(0)
+<7>[26915.718275] +871x_drv - drv_open, bup=0
+<7>[26915.742487]  ===> FirmwareDownload91C() fw:Rtl819XFwImageArray_TSMC
+<7>[26915.748793] FirmwareDownload92C accquire FW from embedded image
+<7>[26915.766470] fw_ver=v80, fw_subver=0, sig=0x88c0
+<7>[26915.810352] fw download ok!
+<7>[26915.813178] Set RF Chip ID to RF_6052 and RF type to 1T1R.
+<7>[26915.970191] ====pa turn on===
+<7>[26916.217191] IQK:Start!!!
+<7>[26916.232063] Path A IQK Success!!
+<7>[26916.245691] Path A IQK Success!!
+<7>[26916.261847] IQK: final_candidate is 0
+<7>[26916.265558] IQK: RegE94=103 RegE9C=11 RegEA4=fe RegEAC=3fe RegEB4=0 RegEBC=0 RegEC4=0 RegECC=0
+<7>[26916.265567]  Path A IQ Calibration Success !
+<7>[26916.414340] pdmpriv->TxPowerTrackControl = 1
+<7>[26916.425452] MAC Address from REG_MACID = 00:18:01:00:82:c1
+<7>[26916.425469] rtl8192cu_hal_init in 690ms
+<7>[26916.425480] MAC Address = 00:18:01:00:82:c1
+<7>[26916.448212] rtw_cfg80211_init_wiphy:rf_type=3
+<7>[26916.448243] -871x_drv - drv_open, bup=1
+<7>[26916.448265] roaming from device777(00:0f:54:0d:de:a5), length:9
+<7>[26916.448300] ###########  rtw_resume  done#################
+<7>[26916.501387] [AXP]battery state change
+<7>[26916.503056] charger->usb_valid = 1
+<7>[26916.503772] [AXP]axp_battery_event, 745, event = 0x800 
+<7>[26917.050102] 
+<7>[26917.050114] 
+<7>[26917.050117] insmod_device_driver
+<7>[26917.050123] 
+<7>[26917.050131] [sw_udc]: sw_usb_device_enable start
+<7>[26917.050139] [sw_udc]: usb_vbase  = 0xf1c13000
+<7>[26917.050148] [sw_udc]: sram_vbase = 0xf1c00000
+<7>[26917.050172] [sw_udc]: open_usb_clock
+<7>[26917.096505] [sw_udc]: usbd_stop_work
+<7>[26917.096544] [sw_udc]: CONFIG_USB_GADGET_DUALSPEED
+<7>[26917.096555] [sw_udc]: usbd_start_work
+<7>[26917.096563] [sw_udc]: usbd_start_work
+<7>[26917.096569] [sw_udc]: sw_usb_device_enable end
+<7>[26917.152030] [sw_udc]: IRQ: suspend
+<7>[26917.155471] [sw_udc]: ERR: usb speed is unkown
+<7>[26917.785462] survey done event(e)
+<7>[26917.788727] [by_bssid:0][assoc_ssid:device777][to_roaming:1] new candidate: device777(00:0f:54:0d:de:a5) rssi:-44
+<7>[26917.799014] rtw_select_and_join_from_scanned_queue: candidate: device777(00:0f:54:0d:de:a5)
+<7>[26917.807398] rtw_restructure_ht_ie IEEE80211_HT_CAP_MAX_AMSDU is set
+<7>[26917.813688] link to Ralink AP
+<7>[26917.819888] rtw_cfg80211_indicate_scan_done without scan req
+<7>[26917.927898] link to Ralink AP
+<7>[26917.930918] issue_deauth to 00:0f:54:0d:de:a5
+<7>[26917.942002] OnAuthClient
+<7>[26917.944559] network.SupportedRates[0]=82
+<7>[26917.948482] network.SupportedRates[1]=84
+<7>[26917.952435] network.SupportedRates[2]=8B
+<7>[26917.956355] network.SupportedRates[3]=96
+<7>[26917.960292] network.SupportedRates[4]=12
+<7>[26917.964214] network.SupportedRates[5]=24
+<7>[26917.968133] network.SupportedRates[6]=48
+<7>[26917.972073] network.SupportedRates[7]=6C
+<7>[26917.975992] network.SupportedRates[8]=0C
+<7>[26917.979911] network.SupportedRates[9]=18
+<7>[26917.983847] network.SupportedRates[10]=30
+<7>[26917.987852] network.SupportedRates[11]=60
+<7>[26917.991903] bssrate_len = 12
+<7>[26918.006756] OnAssocRsp
+<7>[26918.009143] report_join_res(3)
+<7>[26918.012224] rtw_joinbss_update_network
+<7>[26918.015974] +rtw_update_ht_cap()
+<7>[26918.019216] rtw_joinbss_update_stainfo
+<7>[26918.022993] rtw_cfg80211_indicate_connect
+<7>[26918.029602] HW_VAR_BASIC_RATE: BrateCfg(0x15d)
+<7>[26918.035330] WMM(0): 0, a42b
+<7>[26918.038202] WMM(1): 0, a44f
+<7>[26918.041330] WMM(2): 0, 604322
+<7>[26918.044513] WMM(3): 0, 303222
+<7>[26918.047573] [HW_VAR_ACM_CTRL] Write 0x0
+<7>[26918.051721] HTOnAssocRsp
+<7>[26918.059712] update raid entry, mask=0xfffff, arg=0x80
+<7>[26918.067205] rtl8192c_set_FwJoinBssReport_cmd mstatus(1)
+<7>[26918.081711] SetFwRsvdPagePkt
+<7>[26918.084667] Set RSVD page location to Fw.
+<7>[26918.095959] =>mlmeext_joinbss_event_callback
+<7>[26918.490139] OnAction_back
+<7>[26918.492773] OnAction_back, action=0
+<7>[26918.496264] issue_action_BA, category=3, action=1, status=0
+<7>[26919.190059] set usbcur 900 mA
+<7>[26919.193701] set usbvol 4000 mV
+<7>[26920.211162] [sw_udc]: IRQ: reset
+<7>[26920.214424] [sw_udc]: irq: reset happen, throw away all urb
+<7>[26920.282800] [sw_udc]: 
+<7>[26920.284998] +++++++++++++++++++++++++++++++++++++
+<7>[26920.289885] [sw_udc]:  usb enter high speed.
+<7>[26920.292786] [sw_udc]: 
+<7>[26920.292786] +++++++++++++++++++++++++++++++++++++
+<7>[26920.305996] [sw_udc]: IRQ: reset
+<7>[26920.309251] [sw_udc]: irq: reset happen, throw away all urb
+<6>[26920.315060] android_work: sent uevent USB_STATE=CONNECTED
+<7>[26920.373816] [sw_udc]: Set address 4
+<6>[26920.390654] android_usb gadget: high speed config #1: android
+<7>[26920.396428] [sw_udc]: ep enable: ep3(0xc08ec5c0, ep3-bulk, 128, 512)
+<7>[26920.400045] [sw_udc]: ep enable: ep4(0xc08ec600, ep4-bulk, 0, 512)
+<7>[26920.409091] [sw_udc]: 
+<6>[26920.420310] android_work: sent uevent USB_STATE=CONFIGURED
+<7>[26920.430287] ep enable: ep1(0xc08ec540, ep1-bulk, 128, 512)
+<7>[26920.435814] [sw_udc]: ep enable: ep2(0xc08ec580, ep2-bulk, 0, 512)
+<7>[26920.456494] [sw_udc]: alloc request: ep(0xc08ec540, ep1-bulk, 512), req(0xe4791480)
+<7>[26920.470297] [sw_udc]: alloc request: ep(0xc08ec580, ep2-bulk, 512), req(0xe4791fc0)
+<7>[26920.490298] [sw_udc]: alloc request: ep(0xc08ec540, ep1-bulk, 512), req(0xe4791e80)
+<7>[26920.498059] [sw_udc]: alloc request: ep(0xc08ec580, ep2-bulk, 512), req(0xe4791cc0)
+<7>[26922.308166] OnDisassoc Reason code(7)
+<7>[26922.311869] OnDisassoc, STA:00:0f:54:0d:de:a5
+<7>[26922.316228] receive_disconnect
+<7>[26922.319284] report_del_sta_event: delete STA
+<7>[26922.323593] OnDeAuth Reason code(7)
+<7>[26922.327083] OnDeAuth, STA:00:0f:54:0d:de:a5
+<7>[26922.331282] receive_disconnect
+<7>[26922.341020] rtw_cfg80211_indicate_disconnect
+<7>[26922.345340] rtl8192c_set_FwJoinBssReport_cmd mstatus(0)
+<7>[26922.440056] ==>pwr_state_check_handler .fw_state(8)
+<7>[26922.444943] ==> rtw_ps_cmd  , enqueue CMD 
+<7>[26922.455744] ==>rtw_ps_processor .fw_state(8)
+<7>[26922.460176] ==>ips_enter cnts:2
+<7>[26922.463488] ==>power_saving_ctrl_wk_hdl change rf to OFF...LED(0x00020008).... 
+<7>[26922.463496] 
+<7>[26922.472450] ===> rtw_ips_pwr_down...................
+<7>[26922.477888] ====> rtw_ips_dev_unload...
+<7>[26922.506765] usb_read_port_cancel 
+<7>[26922.510999] usb_write_port_cancel 
+<7>[26922.514493] ==> rtl8192cu_hal_deinit 
+<7>[26922.518163] bkeepfwalive(0)
+<7>[26922.521429] card disble without HWSM...........
+<7>[26922.531123] <=== rtw_ips_pwr_down..................... in 60ms
+<7>[26925.408415] WRN:L1351(drivers/usb/sun4i_usb/udc/sw_udc.c):handle_ep0: ep0 setup end
+<7>[26925.416089] nuke: ep num is 0
+<7>[26955.302549] [AXP]-----------in change_flag-----------
+<7>[27016.485856] 
+<7>[27016.485866]  rfpwrstate_check call ips_leave....
+<7>[27016.493268] ==>ips_leave cnts:1
+<7>[27016.502199] ===>  rtw_ips_pwr_up..............
+<7>[27016.516709] ===> ips_netdrv_open.........
+<7>[27016.541718]  ===> FirmwareDownload91C() fw:Rtl819XFwImageArray_TSMC
+<7>[27016.548000] FirmwareDownload92C accquire FW from embedded image
+<7>[27016.570384] fw_ver=v80, fw_subver=0, sig=0x88c0
+<7>[27016.620765] fw download ok!
+<7>[27016.623726] Set RF Chip ID to RF_6052 and RF type to 1T1R.
+<7>[27017.047600] IQK:Start!!!
+<7>[27017.061977] Path A IQK Success!!
+<7>[27017.075978] Path A IQK Success!!
+<7>[27017.088107] IQK: final_candidate is 0
+<7>[27017.091967] IQK: RegE94=103 RegE9C=10 RegEA4=ff RegEAC=3ff RegEB4=0 RegEBC=0 RegEC4=0 RegECC=0
+<7>[27017.091976]  Path A IQ Calibration Success !
+<7>[27017.223980] pdmpriv->TxPowerTrackControl = 1
+<7>[27017.235361] MAC Address from REG_MACID = 00:18:01:00:82:c1
+<7>[27017.241159] rtl8192cu_hal_init in 720ms
+<7>[27017.246172] <===  rtw_ips_pwr_up.............. in 740ms
+<7>[27017.251951] ==> ips_leave.....LED(0x00028080)...
+<5>[27017.259543] init: service 'wpa_supplicant' is being killed
+<6>[27017.268308] init: waitpid returned pid 6791, status = 00000009
+<5>[27017.275581] init: process 'wpa_supplicant', pid 6791 exited
+<7>[27017.570422] +rtw_drv_halt
+<7>[27017.573063] ##########rtw_suspend_lock_uninit###########
+<6>[27017.578582] usbcore: deregistering interface driver rtl8192cu
+<7>[27017.584487] ###=> usb_read_port_complete => urb status(-108)
+<7>[27017.590472] +rtw_dev_remove
+<7>[27017.593370] rtw_unregister_early_suspend
+<7>[27017.598336] rtw_sta_flush
+<7>[27017.610336] ===> rtw_dev_unload
+<7>[27017.613837] usb_read_port_cancel 
+<7>[27017.617175] usb_write_port_cancel 
+<7>[27017.620892] ###> rtw_cmd_thread break.................
+<7>[27017.626227] rtw_cmd_thread: leaving... check & free all cmd_obj resources
+<7>[27017.633184] rtw_cmd_thread: leaving... call up terminate_cmdthread_sema
+<7>[27017.639933] ==> rtl8192cu_hal_deinit 
+<7>[27017.643767] bkeepfwalive(0)
+<7>[27017.646566] card disble HWSM...........
+<7>[27017.655364] <=== rtw_dev_unload
+<7>[27017.658517] +r871xu_dev_remove, hw_init_completed=0
+<4>[27017.664702] free_recv_skb_queue not empty, 4
+<7>[27017.668987] rtw_unregister_early_suspend
+<7>[27017.673129] =====> rtl8192c_free_hal_data =====
+<7>[27017.677801] <===== rtl8192c_free_hal_data =====
+<7>[27017.682558] rtw_wdev_free
+<7>[27017.685198] rtw_wdev_free, scan abort when device remove
+<7>[27017.690803] rtw_cfg80211_indicate_scan_done without scan req
+<7>[27017.698846] usb attached..., try to reset usb device
+<6>[27017.820781] usb 2-1: reset high speed USB device number 2 using sw-ehci
+<7>[27017.971633] -r871xu_dev_remove, done
+<7>[27017.976285] -rtw_drv_halt
+<7>[27017.981822] sw_usb_disable_hcd: usbc_num = 2
+<7>[27017.986105] [sw-ehci2]: sw_usb_disable_ehci
+<7>[27018.009462] [sw-ehci2]: remove, pdev->name: sw-ehci, pdev->id: 2, sw_ehci: 0xc09e3844
+<6>[27018.021066] sw-ehci sw-ehci.2: remove, state 1
+<6>[27018.026513] usb usb2: USB disconnect, device number 1
+<6>[27018.031996] usb 2-1: USB disconnect, device number 2
+<6>[27018.045785] sw-ehci sw-ehci.2: USB bus 2 deregistered
+<7>[27018.045816] [sw-ehci2]: close clock
+<7>[27018.045851] [sw-ohci2]: sw_usb_disable_ohci
+<7>[27018.045863] [sw-ohci2]: remove, pdev->name: sw-ohci, pdev->id: 2, sw_ohci: 0xc09e399c
+<6>[27018.045875] sw-ohci sw-ohci.2: remove, state 1
+<6>[27018.045901] usb usb3: USB disconnect, device number 1
+<7>[27018.048778] ohci_irq: connect status change
+<6>[27018.049347] sw-ohci sw-ohci.2: USB bus 3 deregistered
+<7>[27018.049373] [sw-ohci2]: Set USB Power OFF
+<7>[27018.049384] [sw-ohci2]: close clock
+<7>[27136.227538] [pm]valid
+<6>[27136.229844] request_suspend_state: sleep (0->3) at 27136229832412 (2013-04-10 23:27:50.554739814 UTC)
+<7>[27136.239133] enter earlysuspend: goodix_ts_suspend. 
+<6>[27136.248771] mma7660 early suspend
+<7>[27136.256266] [AXP]======early suspend=======
+<7>[27136.264834] [AXP-APP]pmu_earlysuspend_chgcur = 600000
+<7>[27136.276978] [AXP-APP][earlysuspend]pmu_suspendpwroff_vol = 3500000
+<7>[27136.290072] [AXP-APP][earlysuspend]pmu_suspendpwroff_vol val = 0x71
+<7>[27136.302143] enter earlysuspend: sun4i_keyboard_suspend. 
+<7>[27136.312920] ==display early suspend enter
